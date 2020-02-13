@@ -4,4 +4,5 @@ Welcome to this repository! Download my BBD themes in the [download-theme-here](
 
 # Links
 
-[Support server (No Name 1080)](https://discord.me/nn1080)
+- [Support server (No Name 1080)](https://discord.me/nn1080)
+- [YTGamer/docs repository](https://github.com/YTGamer/docs)

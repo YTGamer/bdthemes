@@ -1,5 +1,5 @@
 :root {
-	--transparencycolor:			24,25,255;												/* default:	24,25,29																							*/
+	--transparencycolor:			24,25,29;												/* default:	24,25,29																							*/
 	--transparencyalpha:			0;														/* default: 0					(general darkness of the app)													*/
 	--messagetransparency:			0.1;													/* default: 0.1																									*/
 	--guildchanneltransparency:		0.5;													/* default: 0.5					(additional darkness for guild/channel list)									*/

@@ -1,4 +1,4 @@
-# Yes, you're in the right foler.
+# Yes, you're in the right folder.
 
 Now, download your favorite theme(s). Previews just below:
 

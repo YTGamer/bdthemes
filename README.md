@@ -1,6 +1,6 @@
 # bdthemes
 
-Welcome to this repository! Download my BBD themes in the [download-theme-here](https://github.com/YTGamer/bdthemes/tree/master/download-themes-here) folder.
+Welcome to this repository! Download my BBD themes in the [download-themes-here](https://github.com/YTGamer/bdthemes/tree/master/download-themes-here) folder.
 
 # Links
 

@@ -295,23 +295,6 @@
 	background-image: linear-gradient(0deg,rgba(0,0,0,.2),rgba(0,0,0,.2)) !important;
 }
 
-/* MENTION */
-.message-15tBk4 strong[style=""],
-.message-15tBk4 strong:not([style]),
-.wrapper-3WhCwL[style=""],
-.wrapper-3WhCwL:not([style]) {
-	color: rgba(var(--vaccentcolor), 1) !important;
-	background: rgba(var(--vaccentcolor), 0.1) !important;
-}
-.wrapper-3WhCwL[style=""]:hover,
-.wrapper-3WhCwL:not([style]):hover {
-	color: rgb(255,255,255) !important;
-	background: rgba(var(--vaccentcolor), 1) !important;
-}
-.wrapper-3WhCwL:hover {
-	text-decoration: underline !important;
-}
-
 /* DATEPICKER */
 .datePicker--XZbmJ .datePickerHint-3Q1Udw .hintValue-29ny8Z,
 .datePicker--XZbmJ .react-datepicker__day:not(.react-datepicker__day--disabled):hover,

@@ -6,7 +6,7 @@ Now, download your favorite theme(s). Previews just below:
 
 I tried to copy the original Discord AMOLED dark theme on mobile to use it on PC.
 
-<img src="https://media.discordapp.net/attachments/644206156415238221/677538587713208330/unknown.png">
+<img src="https://media.discordapp.net/attachments/644206156415238221/677595472709419029/unknown.png">
 
 ### Remove Nitro Tab
 

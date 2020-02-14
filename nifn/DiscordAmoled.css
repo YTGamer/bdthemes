@@ -7513,23 +7513,3 @@ body.folderContentIsOpen-zz6FgW .titleBar-AC4pGV.typeMacOS-3EmCyP .macButtons-2M
 #app-mount .userPopout-3XzG_A .avatarWrapper-3H_478.supporter-Z3FfwL:not(.statusHovered-gF2976):hover .wrapper-3t9DeA:after {
 	border-top-color: rgb(var(--vaccentcolor)) !important;
 }
-
-html:only-child > head + body > div#app-mount.appMount-3lHmkl > div.app-1q1i1E > div.app-2rEoOp > div.layers-3iHuyZ.layers-3q14ss > div.layer-3QrUeG.baseLayer-35bLyl + div.layer-3QrUeG > div > div.standardSidebarView-3F1I7i > div.sidebarRegion-VFTUkN > div.scrollerWrap-2lJEkd.scrollerThemed-2oenus.themeGhostHairline-DBD-2d.scrollerFade-1Ijw5y > div.scroller-2FKFPG.sidebarRegionScroller-3MXcoP > nav.sidebar-CFHs9e > div.side-8zPYf6 > div.info-1VyQPT:after {
-	content: "Discord AMOLED v2.0.0 " !important;
-	font-size: 12px !important;
-	color: var(--text-muted) !important;
-	cursor: pointer !important;
-	display: inline !important;
-	opacity: 1 !important;
-	padding: 0 !important;
-	margin: 0 !important;
-	cursor: text !important;
-	visibility: visible !important;
-	position: relative !important;
-	top: unset !important;
-	left: unset !important;
-	bottom: unset !important;
-	right: unset !important;
-	transform: unset !important;
-	animation: unset !important;
-}

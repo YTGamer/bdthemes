@@ -1,6 +1,6 @@
 :root {
-	--transparencycolor:		24,25,29;						/* default: 24,25,29																							*/
-	--transparencyalpha:		0;							/* default: 0					(general darkness of the app)													*/
+	--transparencycolor:		24,25,29;						/* default: 24,25,29																*/
+	--transparencyalpha:		0;							/* default: 0					(general darkness of the app)									*/
 	--messagetransparency:		0;							/* default: 0																									*/
 	--guildchanneltransparency:	0.3;							/* default: 0.5					(additional darkness for guild/channel list)							*/
 	--memberlistransparency:	0;							/* default: 0					(additional darkness for member list)								*/
@@ -8,7 +8,7 @@
 	
 	--background:			url(https://dummyimage.com/200x200/000000/000000.jpg);	/* general background image															*/
 	--backgroundsize:		cover;							/* default: cover				(sizefit of general background - values: [cover/contain/auto])					*/
-	--backgroundblur:		0px;							/* default: 0px					(only works when --background is set to an image)								*/
+	--backgroundblur:		0px;							/* default: 0px					(only works when --background is set to an image)						*/
 	
 	--popout:			url(https://dummyimage.com/200x200/212226/212226.jpg);	/* default: var(--background)			(change to use another background/color for modals/popouts)					*/
 	--popoutsize:			var(--backgroundsize);					/* default: cover				(sizefit of popout background - values: [cover/contain/auto])					*/

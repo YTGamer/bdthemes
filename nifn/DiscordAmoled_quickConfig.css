@@ -2,7 +2,7 @@
 	--transparencycolor:		24,25,29;						/* default: 24,25,29																*/
 	--transparencyalpha:		0;							/* default: 0					(general darkness of the app)									*/
 	--messagetransparency:		0;							/* default: 0																									*/
-	--guildchanneltransparency:	0.3;							/* default: 0.5					(additional darkness for guild/channel list)							*/
+	--guildchanneltransparency:	0.8;							/* default: 0.5					(additional darkness for guild/channel list)							*/
 	--memberlistransparency:	0;							/* default: 0					(additional darkness for member list)								*/
 	--accentcolor:			66,71,77;						/* default: 66,71,77				(blurple: 114,137,218 bd-blue: 58,113,193)							*/
 	

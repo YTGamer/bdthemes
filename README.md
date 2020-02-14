@@ -10,4 +10,4 @@ Welcome to this repository! Download my BBD themes in the [download-themes-here]
 
 # If you don't know…
 
-To download a theme, choose the theme file and click "Raw" at the file top. Use Ctrl + S to save. You must save in the following path: `%appdata%\BetterDiscord\themes` (or `\plugins` for plugins) (paste it in file explorer). And enable in Discord app.
+To download a theme, choose the theme file and click "Raw" at the file top. Use Ctrl + S to save. You must save in the following path: `%appdata%\BetterDiscord\themes` (or `\plugins` for plugins) (paste it in file explorer). Make sure your file name ends with `.theme.css` and enable in Discord app.

@@ -1,0 +1,40 @@
+html:only-child > head + body > div#app-mount.appMount-3lHmkl > div.app-1q1i1E > div.app-2rEoOp > div.layers-3iHuyZ.layers-3q14ss > div.layer-3QrUeG.baseLayer-35bLyl + div.layer-3QrUeG > div > div.standardSidebarView-3F1I7i > div.sidebarRegion-VFTUkN > div.scrollerWrap-2lJEkd.scrollerThemed-2oenus.themeGhostHairline-DBD-2d.scrollerFade-1Ijw5y > div.scroller-2FKFPG.sidebarRegionScroller-3MXcoP > nav.sidebar-CFHs9e > div.side-8zPYf6 > div.info-1VyQPT:after {
+	content: "Discord AMOLED Optimized 1.0.4 by YTGamer 3000" !important; /* You can show this in settings and scroll down — If you want to have the latest version of this theme, reload Discord */
+	font-size: 12px !important;
+	color: var(--text-muted) !important;
+	cursor: pointer !important;
+	display: inline !important;
+	opacity: 1 !important;
+	padding: 0 !important;
+	margin: 0 !important;
+	cursor: text !important;
+	visibility: visible !important;
+	position: relative !important;
+	top: unset !important;
+	left: unset !important;
+	bottom: unset !important;
+	right: unset !important;
+	transform: unset !important;
+	animation: unset !important;
+}
+
+:root {
+	--transparencycolor:		0,0,0;							/* default: 0,0,0																*/
+	--transparencyalpha:		0;							/* default: 0																	*/
+	--messagetransparency:		0;							/* default: 0																	*/
+	--guildchanneltransparency:	0;							/* default: 0																	*/
+	--memberlistransparency:	0;							/* default: 0																	*/
+	--accentcolor:			66,71,77;						/* default: 66,71,77																*/
+	
+	--background:			url(https://dummyimage.com/200x200/000000/000000.jpg);	/* default: url(https://dummyimage.com/200x200/000000/000000.jpg)										*/
+	--backgroundsize:		cover;							/* default: cover | values: cover, contain, auto												*/
+	--backgroundblur:		0px;							/* default: 0px																	*/
+	
+	--popout:			url(https://dummyimage.com/200x200/000000/000000.jpg);	/* default: url(https://dummyimage.com/200x200/000000/000000.jpg)										*/
+	--popoutsize:			var(--backgroundsize);					/* default: cover | values: cover, contain, auto												*/
+	--popoutblur:			0px;							/* default: 0px																	*/
+	
+	--backdrop:			rgb(0,0,0);						/* default: rgb(0,0,0)																*/
+	--backdropsize:			var(--backgroundsize);					/* default: cover				(sizefit of backdrop background - values: [cover/contain/auto])					*/
+	--backdropblur:			0px;							/* default: 0px					(only works when --backdrop is set to an image)							*/
+}

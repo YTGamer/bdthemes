@@ -1445,91 +1445,6 @@ img[src*="/assets/0f4d1ff76624bb45a3fee4189279ee92.svg"] + * + *:before {
 	--logo-primary: rgb(var(--fontwhite1));
 }
 
-
-/* ~~~~		0.		TABLE OF CONTENTS				~~~~ */
-/*
-	1.	TRANSPARENCY
-	2.	BACKGROUND
-	3.	TITLEBAR
-	4.	GUILDLIST
-	5.	CHANNELLIST
-		1.	GUILDHEADER
-		2.	CHANNELS
-		3.	DMCHANNELS
-		4.	ACCOUNT/VOICE/GOLIVE
-	6.	CHAT
-		1.	CHANNELHEADER
-		2.	MESSAGES
-			1.	MESSAGE
-			2.	EMBEDS
-			3.	NITROGIFT
-			4.	INVITE
-		3.	TEXTAREA
-		4.	AUTOCOMPLETEMENU
-		5.	MEMBERLIST
-		6.	SEARCHPAGE
-		7.	CALL
-	7.	ACTIVITYPAGE
-	8.	LIBRARY
-	9.	STORE/NITRO
-	10.	PEOPLES
-	11.	DISCOVERY
-	12.	USERSETTINGS
-	13.	GUILDSETTINGS
-	14.	MODALS
-		1.	USERMODAL
-		2.	GUILDADD/CREATION
-		3.	REGIONSELECTMODAL
-		4.	UPLOADMODAL
-		5.	KEYBOARDSHORTCUTSMODAL
-		6.	QUICKSWITCHER
-		7.	INVITEMODAL
-		8.	LOGINSCREEN
-		9.	TERMACCEPTMODAL
-	15.	POPOUTS
-		1.	CONTEXTMENU
-		2.	USERPOPOUT
-		3.	EMOJIPICKER
-		4.	PINS/MENTIONS
-		5.	SEARCHPOPOUT
-		6.	COLORPICKER
-		7.	ADDROLE
-		8.	EVERYONEMENTION
-	16.	GENERAL
-		1.	TEXT
-		2.	BUTTONS
-		3.	INPUTS
-		4.	SEARCHBARS
-		5.	TAGS
-		6.	ICONS
-		7.	SCROLLBARS
-		8.	NOTIFICATIONBAR
-		9.	TOOLTIPS
-		10.	TOASTS
-	17.	BDSUPPORT
-	18.	PLUGINSUPPORT
-		1.	DATEVIEWER
-		2.	SERVERFOLDERS
-		3.	MEMBERCOUNT
-		4.	SENDBUTTON
-		5.	CHARCOUNTER
-		6.	REPLYER
-		7.	CITADOR
-		8.	LINENUMBERS
-		9.	PERMISSIONVIEWER
-		10.	BETTERSEARCHPAGE
-		11.	REPOCONTROLS
-		12.	DIRECTDOWNLOAD
-		13.	BETTERFORMATINGREDUX
-		14.	PLUGIN/THEMEREPO
-	19.	THEMESUPPORT
-		1.	THEMEDEVBADGE
-		2.	BETTERDOCSBLOCK
-	20.	UPDATENOTICE
-	21.	WATERMARK (REMOVED)
-*/
-
-
 /* ~~~~		1.		TRANSPARENCY					~~~~ */
 
 body,														/* body														*/
@@ -1707,29 +1622,6 @@ body:before {
 	background-color: rgb(var(--fontwhite1));
 }
 
-.wrapper-21YSNc {											/* folder				outerwrap							*/
-	margin-bottom: 8px;
-}
-.folder-21wGz3 {											/* folder				iconwrap							*/
-	background-color: rgba(var(--vtransparencycolor), 0.2);
-}
-.folder-21wGz3.hover-2ji_A7 {
-	background-color: rgba(var(--vtransparencycolor), 0.4);
-}
-.expandedFolderBackground-2sPsd- {							/* folder				background							*/
-	background-color: rgba(var(--vtransparencycolor), 0.2);
-	border-radius: 15px 15px 24px 24px;
-	top: 0;
-	bottom: 0;
-	transition: border-radius 3s ease, background-color 1s ease;
-}
-.expandedFolderBackground-2sPsd-.hover-2ji_A7 {
-	background-color: rgba(var(--vtransparencycolor), 0.4);
-}
-
-.expandedGuilds-1JMD4M {									/* folder				guildwrap							*/
-	height: auto !important;
-}
 .expandedGuilds-1JMD4M .listItem-2P_4kh:last-child {
 	margin-bottom: 0;
 }
@@ -7139,19 +7031,6 @@ body #ace_settingsmenu input[type="checkbox"]:checked:after {
 #app-mount #dv-main .dv-date {
 	color: rgb(var(--fontwhite3));
 	opacity: 1;
-}
-
-/* ----		18.2.	SERVERFOLDERS					---- */
-
-body.folderContentIsOpen-zz6FgW .titleBar-AC4pGV.typeMacOS-3EmCyP,
-body.folderContentIsOpen-zz6FgW .titleBar-AC4pGV.typeMacOS-3EmCyP .macButtons-2MuSAC {
-	width: 144px;
-}
-body.folderContentIsOpen-zz6FgW .titleBar-AC4pGV.typeMacOS-3EmCyP .macButtons-2MuSAC {
-	padding-right: 82px;
-}
-.base-PmTxvP[style*="background-color: rgb(114, 137, 218)"] {
-	text-shadow: 1px 1px var(--vtextshadow);
 }
 
 /* ----		18.3.	MEMBERCOUNT						---- */

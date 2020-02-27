@@ -610,8 +610,6 @@
 .input-cIJ7To:not(.success-2-F980):not(.error-2O5WFJ):not(.disabled-2BKQFm):focus,
 .input-cIJ7To.focused-1mmYsC,
 .containerUserOver-1U5YnL:after,
-.checkbox-3kaeSU .checkboxInner-3yjcPe .checkboxElement-1qV33p:checked + span,
-.checkbox-3kaeSU .checkboxInner-3yjcPe.alt-6FvZrq .checkboxElement-1qV33p:checked + span:after,
 .item-26Dhrx[style*="border-color: rgb(114, 137, 218)"] .checked-3_4uQ9,
 [style*="border-color: rgb(114, 137, 218)"],
 [style*="border-color: #7289da"],
@@ -1598,40 +1596,6 @@ body:before {
 
 .expandedGuilds-1JMD4M .listItem-2P_4kh:last-child {
 	margin-bottom: 0;
-}
-
-.bar-30k2ka {												/* guild/channelbar		inner								*/
-	color: rgb(var(--fontwhite1));
-	box-shadow: 0 2px 6px rgba(var(--vtransparencycolor), 0.24);
-}
-.bar-30k2ka:not(.mention-1f5kbO) {
-	overflow: hidden;
-	background: transparent;
-}
-.bar-30k2ka:not(.mention-1f5kbO):after,
-.bar-30k2ka:not(.mention-1f5kbO):before {
-	content: "";
-	position: absolute;
-	top: 0;
-	bottom: 0;
-	right: 0;
-	left: 0;
-	pointer-events: none;
-	z-index: -1;
-}
-.bar-30k2ka:not(.mention-1f5kbO):after {
-	background-color: rgba(var(--vtransparencycolor), calc(var(--vtransparencyalpha) + 0.1));
-}
-.sidebar-2K8pFh .bar-30k2ka:not(.mention-1f5kbO):after {
-	background-color: rgba(var(--vtransparencycolor), calc(var(--vtransparencyalpha) + var(--vguildchanneltransparency) * 0.85 + 0.1));
-}
-.wrapper-1Rf91z .bar-30k2ka:not(.mention-1f5kbO):after {
-	background-color: rgba(var(--vtransparencycolor), calc(var(--vtransparencyalpha) + var(--vguildchanneltransparency) * 1.9 + 0.1));
-}
-.bar-30k2ka:not(.mention-1f5kbO):before {
-	background: var(--vbackground) center/var(--vbackgroundsize);
-	filter: blur(var(--vbackgroundblur));
-	background-attachment: fixed;
 }
 
 
@@ -3237,18 +3201,6 @@ body:before {
 	color: rgb(var(--fontwhite4));
 }
 
-.cardPrimary-1Hv-to, .cardPrimaryEditable-3KtE4g {			/* settingsitems		card								*/
-	border-color: rgba(var(--vtransparencycolor), 0.1);
-}
-.cardPrimary-1Hv-to {
-	background-color: rgba(var(--vtransparencycolor), 0.2);
-}
-.cardPrimaryEditable-3KtE4g {
-	background-color: rgba(var(--vtransparencycolor), 0.1);
-}
-.cardPrimaryOutline-29Ujqw {
-	border-color: rgba(var(--vtransparencycolor), 0.2);
-}
 #app-mount .card-2qG0dv {
 	color: rgb(var(--fontwhite1));
 }
@@ -4681,13 +4633,6 @@ body:before {
 }
 .separator-2zcjq8 {												/* contextmenu			separator (guildheader/status)		*/
 	border-bottom-color: rgba(var(--fontwhite4), 0.3);
-}
-#app-mount .checkbox-3kaeSU .checkboxInner-3yjcPe span {		/* contextmenu			checkbox (contextmenu)				*/
-	border-color: rgba(var(--fontwhite2), 0.2);
-}
-#app-mount .clickable-11uBi-:hover .checkbox-3kaeSU .checkboxInner-3yjcPe span,
-#app-mount .selected-BYpGTS .checkbox-3kaeSU .checkboxInner-3yjcPe span {
-	border-color: rgba(var(--fontwhite1), 0.2);
 }
 .checkbox-3kaeSU .checkboxInner-3yjcPe .checkboxElement-1qV33p:checked + span:after {
 	border-color: rgb(var(--fontwhite1));
@@ -6497,23 +6442,6 @@ img[src="/assets/e8b66317ab0dc9ba3bf8d41a4f3ec914.png"] {	/* videosettings		opus
 	background: var(--vtextshadow);
 }
 
-/* ----		16.9.	TOOLTIPS						---- */
-
-.headerText-1h7zBw {
-	color: rgb(var(--fontwhite1));
-}
-#app-mount .tooltip-2QfLtc {
-	box-shadow: 0 2px 10px 0 rgba(var(--vtransparencycolor), 0.3);
-	color: rgb(var(--fontwhite1));
-}
-#app-mount .tooltipBlack-PPG47z {
-	background-color: rgb(var(--vaccentcolor));
-	text-shadow: 1px 1px var(--vtextshadow);
-}
-#app-mount .tooltipBlack-PPG47z .tooltipPointer-3ZfirK {
-	border-top-color: rgb(var(--vaccentcolor));
-}
-
 /* ----		16.10.	TOASTS							---- */
 
 .toast,
@@ -7314,4 +7242,13 @@ body #ace_settingsmenu input[type="checkbox"]:checked:after {
 #app-mount .themeEntry svg[fill="currentColor"]:hover,
 #app-mount .themeEntry .gifFavoriteButton-1gYkEU:not(.selected-2QpwIN):hover {
 	color: rgb(var(--fontwhite1)) !important;
+}
+
+.premiumContainer-2Iux5m {
+	background-color: black;
+	margin: auto;
+}
+
+.homeWrapper-3-Wh5T {
+	background-color: black;
 }

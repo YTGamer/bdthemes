@@ -1,11 +1,13 @@
-//META{"name":"CustomFont","description":"To change font, change the --customFont at line 5 in theme file. You can remember your fonts by adding your list at line 18.","author":"lonl5445","version":"1"}*//
+//META{"name":"CustomFont","description":"To change font, change the --customFont at line 5 in theme file. You can remember your fonts by adding your list at line 18. If you want the latest update, try to reinstall the theme in my GitHub.","author":"lonl5445","version":"1"}*//
 
 
 :root {
 	--customFont: Whitney, Helvetica Neue, Helvetica, Arial, sans-serif 									/* Choose the font here */
 }
 
-@import url(https://ytgamer.github.io/bdthemes/nifn/CustomFontSetup.css)
+::-webkit-input-placeholder, body, button, input, select, textarea {
+	font-family: var(--customFont);
+}
 
 /*
 

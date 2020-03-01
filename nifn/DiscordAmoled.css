@@ -3,7 +3,6 @@
 	--vaccentcolor: var(--accentcolor,var(--daccentcolor));
 	--dlinkcolor: 0,176,255;
 	--vlinkcolor: var(--linkcolor,var(--dlinkcolor));
-	
 	--dfontwhite1: 255,255,255;
 }
 .theme-dark, .theme-light {
@@ -394,8 +393,6 @@
 .bda-slist .bda-footer a,
 .modalNewUser-3IRw8L h5,
 .personalizationNoticeBlurple-6kXggJ .brandText-1_3JVH,
-.item-1Yvehc.brand-3igrJY,
-.item-1Yvehc.brand-3igrJY:hover,
 .descriptionWrapper-1YBY_J,
 .themeBrand-2qTyWV .keybind-3thb0I,
 .themeBrand-2qTyWV .button-1_corF .innerText-2pcwrI,
@@ -1359,14 +1356,13 @@ img[src*="/assets/0f4d1ff76624bb45a3fee4189279ee92.svg"] + * + *:before {
 	--dmessagetransparency:			0.8;
 	--dguildchanneltransparency:	0;
 	--dmemberlisttransparency:		0;
-	--daccentcolor:				66,71,77;
+	--daccentcolor:					66,71,77;
 	
-	--dfont:				Whitney, Helvetica Neue, Helvetica, Arial, sans-serif;
-	--dtextshadow:				transparent;
+	--dtextshadow:					transparent;
 	
 	--dbackground:					url(https://dummyimage.com/200x200/000000/000000.jpg);
 	--dbackgroundsize:				cover;
-	--dblur:					0px;
+	--dblur:						0px;
 	--dbackdrop:					rgba(0,0,0,0.85);
 
 	--vtransparencycolor:			var(--transparencycolor,			var(--dtransparencycolor));
@@ -1378,7 +1374,6 @@ img[src*="/assets/0f4d1ff76624bb45a3fee4189279ee92.svg"] + * + *:before {
 	--vaccentcolor:					var(--accentcolor,					var(--daccentcolor));
 	--vlinkcolor:					var(--dlinkcolor);
 	
-	--vfont:						var(--font,							var(--dfont));
 	--vtextshadow:					var(--textshadow,					var(--dtextshadow));
 	
 	--vbackground:					var(--background,					var(--dbackground));
@@ -5415,10 +5410,6 @@ body:before {
 
 
 /* ~~~~		16.		GENERAL							~~~~ */
-
-::-webkit-input-placeholder, body, button, input, select, textarea {
-	font-family: var(--vfont);
-}
 
 ::selection {												/* selection												*/
 	background: rgb(var(--vaccentcolor));

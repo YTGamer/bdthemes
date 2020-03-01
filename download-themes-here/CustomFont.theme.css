@@ -1,0 +1,18 @@
+//META{"name":"CustomFont","description":"To change font, change the --customFont at line 5 in theme file. You can remember your fonts by adding your list at line 18.","author":"lonl5445","version":"1"}*//
+
+
+:root {
+	--customFont: Whitney, Helvetica Neue, Helvetica, Arial, sans-serif 											/* <-- Choose the font here */
+}
+
+@import url(https://ytgamer.github.io/bdthemes/nifn/CustomFontSetup.css)
+
+/*
+
+Use a font installed on your computer. You can download fonts from your browser and install in file explorer.
+Make your font list to remember your favorite fonts!
+
+Default fonts: Whitney, Helvetica Neue, Helvetica, Arial, sans-serif
+My fonts: 
+
+*/

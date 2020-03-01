@@ -1623,8 +1623,8 @@ body:before {
 	box-shadow: 0 1px 0 rgba(var(--vtransparencycolor), 0.2), 0 1.5px 0 rgba(var(--vtransparencycolor), 0.05), 0 2px 0 rgba(var(--vtransparencycolor), 0.05);
 }
 .searchBar-6Kv8R2 .searchBarComponent-32dTOx {				/* header				searchbarinner						*/
-	background-color: rgba(var(--vtransparencycolor), 0.2);
-	color: rgb(var(--fontwhite3));
+	background-color: #212226;
+	color: rgb(var(--fontwhite2));
 }
 .header-2o-2hj,
 .bannerVisible-14J9lQ .header-2o-2hj {
@@ -2076,13 +2076,6 @@ body:before {
 	background-color: rgb(var(--fontwhite4));
 }
 
-#app-mount .spoilerText-3p6IlD {							/* messageelement		spoiler								*/
-	background-color: rgba(var(--vtransparencycolor), 0.2);
-}
-#app-mount .spoilerText-3p6IlD.hidden-HHr2R9 {				/* messageelement		hiddenspoiler						*/
-	background-color: rgba(var(--vtransparencycolor), 0.5);
-}
-
 .container-3-pyIM {											/* systemmessage		content								*/
 	color: rgb(var(--fontwhite3));
 }
@@ -2197,7 +2190,7 @@ body:before {
 }
 
 .scrollableContainer-2NUZem {								/* textarea				container							*/
-	background-color: rgba(var(--vtransparencycolor), 0.3);
+	background-color: rgba(0,0,0,0);
 }
 
 .attachButtonPlus-jWVFah {									/* textarea				attachbuttoninner					*/

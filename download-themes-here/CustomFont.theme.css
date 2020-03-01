@@ -2,7 +2,7 @@
 
 
 :root {
-	--customFont: Whitney, Helvetica Neue, Helvetica, Arial, sans-serif 											/* <-- Choose the font here */
+	--customFont: Whitney, Helvetica Neue, Helvetica, Arial, sans-serif 									/* Choose the font here */
 }
 
 @import url(https://ytgamer.github.io/bdthemes/nifn/CustomFontSetup.css)

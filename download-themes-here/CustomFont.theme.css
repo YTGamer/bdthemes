@@ -7,7 +7,13 @@
 	--rememberCodeBlockFonts: monospace;		/* And remember your codeblock fonts here */
 }
 
-@import url(https://ytgamer.github.io/bdthemes/nifn/cfs.css);
+::-webkit-input-placeholder, body, button, input, select, textarea, * {
+	font-family: var(--customFont);
+}
+
+code, .markup-2BOw-j code.inline, .codeBlockText-9TnoxQ, .codeLine-14BKbG, .after_inlineCode-1KfVgj, .before_inlineCode-1G9rTK, .inlineCode-2ngu6Y {
+	font-family: var(--codeBlocksCustomFont);
+}
 
 /*
 
@@ -20,3 +26,22 @@ Default codeblock fonts: Consolas, Andale Mono WT, Andale Mono, Lucida Console, 
 To use one of your default fonts, you can insert: serif, sans-serif or monospace.
 
 */
+
+html:only-child > head + body > div#app-mount.appMount-3lHmkl > div.app-1q1i1E > div.app-2rEoOp > div.layers-3iHuyZ.layers-3q14ss > div.layer-3QrUeG.baseLayer-35bLyl + div.layer-3QrUeG > div > div.standardSidebarView-3F1I7i > div.sidebarRegion-VFTUkN > div.scrollerWrap-2lJEkd.scrollerThemed-2oenus.themeGhostHairline-DBD-2d.scrollerFade-1Ijw5y > div.scroller-2FKFPG.sidebarRegionScroller-3MXcoP > nav.sidebar-CFHs9e > div.side-8zPYf6 > div.info-1VyQPT:after {
+	content: "Custom Font 1.0.5 beta by YTGamer 3000" !important; /* You can show this in settings and scroll down — If you want to have the latest version of this theme, wait a few minutes and reload Discord */
+	font-size: 12px !important;
+	cursor: pointer !important;
+	display: inline !important;
+	opacity: 1 !important;
+	padding: 0 !important;
+	margin: 0 !important;
+	cursor: text !important;
+	visibility: visible !important;
+	position: relative !important;
+	top: unset !important;
+	left: unset !important;
+	bottom: unset !important;
+	right: unset !important;
+	transform: unset !important;
+	animation: unset !important;
+}

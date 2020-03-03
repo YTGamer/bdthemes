@@ -1,20 +1,22 @@
-//META{"name":"CustomFont","description":"To change font, change the --customFont at line 5 in theme file. You can remember your fonts by adding your list at line 18. If you want the latest update, try to reinstall the theme in my GitHub.","author":"lonl5445","version":"1"}*//
-
+//META{"name":"CustomFont","description":"To change font, change the --customFont (and --codeBlocksCustomFont for code blocks) in theme file, or if you have the ThemeSettings plugin, it's better, click on the Settings button. You can remember your fonts by adding your list at --rememberNormalFonts and --rememberCodeBlockFonts.","author":"lonl5445","version":"ersion auto-updated"}*//
 
 :root {
-	--customFont: Whitney, Helvetica Neue, Helvetica, Arial, sans-serif 									/* Choose the font here */
+	--customFont: Whitney, Helvetica Neue, Helvetica, Arial, sans-serif;		/* Choose the font here. */
+	--codeBlocksCustomFont: Consolas, Andale Mono WT, Andale Mono, Lucida Console, Lucida Sans Typewriter, DejaVu Sans Mono, Bitstream Vera Sans Mono, Liberation Mono, Nimbus Mono L, Monaco, Courier New, Courier, monospace;		/* Use a different font for code lines/blocks */
+	--rememberNormalFonts: serif, sans-serif;		/* Remember your fonts here, separate each font with a comma */
+	--rememberCodeBlockFonts: monospace;		/* And remember your codeblock fonts here */
 }
 
-::-webkit-input-placeholder, body, button, input, select, textarea {
-	font-family: var(--customFont);
-}
+@import url(https://ytgamer.github.io/bdthemes/nifn/cfs.css);
 
 /*
 
 Use a font installed on your computer. You can download fonts from your browser and install in file explorer.
 Make your font list to remember your favorite fonts!
 
-Default fonts: Whitney, Helvetica Neue, Helvetica, Arial, sans-serif
-My fonts: 
+Default normal fonts: Whitney, Helvetica Neue, Helvetica, Arial, sans-serif
+Default codeblock fonts: Consolas, Andale Mono WT, Andale Mono, Lucida Console, Lucida Sans Typewriter, DejaVu Sans Mono, Bitstream Vera Sans Mono, Liberation Mono, Nimbus Mono L, Monaco, Courier New, Courier, monospace
+
+To use one of your default fonts, you can insert: serif, sans-serif or monospace.
 
 */

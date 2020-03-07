@@ -35,6 +35,6 @@ html:only-child > head + body > div#app-mount.appMount-3lHmkl > div.app-1q1i1E >
 	--popoutblur:			0px;							/* default: 0px																	*/
 	
 	--backdrop:			rgb(0,0,0);						/* default: rgb(0,0,0)																*/
-	--backdropsize:			var(--backgroundsize);					/* default: cover				(sizefit of backdrop background - values: [cover/contain/auto])					*/
+	--backdropsize:			var(--backgroundsize);					/* default: var(--backgroundsize)		(sizefit of backdrop background - values: [cover/contain/auto])					*/
 	--backdropblur:			0px;							/* default: 0px					(only works when --backdrop is set to an image)							*/
 }

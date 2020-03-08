@@ -6,7 +6,7 @@ Now, download your favorite theme(s). Previews just below:
 
 I tried to copy the original Discord AMOLED dark theme on mobile to use it on PC.
 
-<img src="https://media.discordapp.net/attachments/644206156415238221/680015913655074829/unknown.png">
+<img src="https://media.discordapp.net/attachments/644206156415238221/686173823464112153/unknown.png">
 
 ### Mobile version: ###
 

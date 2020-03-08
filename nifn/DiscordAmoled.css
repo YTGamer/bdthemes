@@ -470,9 +470,6 @@
 [style*=" color: rgba(114, 137, 218, 0.14902)"] {
 	color: rgba(var(--vaccentcolor), 0.14902) !important;
 }
-.newMessagesBar-mujexs button:last-child:not(:hover) {
-	opacity: 0.6;
-}
 
 /* BACKGROUND */
 .bd-server-card.bd-server-card-pinned:after,
@@ -511,7 +508,6 @@
 .wanderingCubesItem-WPXqao,
 .chasingDotsItem-2DVNUn,
 .improved-1F5LIN:after,
-.newMessagesBar-mujexs:hover,
 .progressBar-3u8FBM,
 .themeBrand-2qTyWV .dismissButton-AdNfLV,
 .selectorButtonSelected-1j4DmC,
@@ -536,11 +532,6 @@
 }
 .headerStreaming-2FjmGz {
     background: #593695;
-}
-.themeBrand-2qTyWV.container-fEIfjO,
-.newMessagesBar-mujexs,
-[style*="background-color: rgba(114, 137, 218, 0.9)"] {
-	background-color: rgba(var(--vaccentcolor),0.9) !important;
 }
 .categoryFadeBlurple-1j72_A,
 .theme-light .base-gE7OpD .ellipsis-19qdx6 .spinnerItem-2HfQC8,

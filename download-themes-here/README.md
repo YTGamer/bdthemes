@@ -19,3 +19,9 @@ Notify the support if you have found differences (colors, etc…). Do not report
 This *theme* (or plugin lol) allows you to hide the Nitro Tab.
 
 <img src="https://media.discordapp.net/attachments/644206156415238221/677568115411779587/unknown.png">
+
+## Custom Font
+
+**This theme allows you to use your own fonts** (installed in your computer) **in Discord!** Supports global font and codeblocks font. You can also remember your fonts by using remember variables. I recommend you to download the plugin Theme Settings to change easier this theme's variables. [Click here to download! (after clicking this link, use Ctrl + S to save)](https://raw.githubusercontent.com/mwittrien/BetterDiscordAddons/master/Plugins/ThemeSettings/ThemeSettings.plugin.js)
+
+*settings_preview*

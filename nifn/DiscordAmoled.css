@@ -212,7 +212,6 @@
 .btn-1PnLxm.btnPrimary-1jluZW,
 .btn-15Au6M.btnPrimary-ggBniE,
 .bd-modal-wrapper .footer button,
-.bd-pfbtn,
 .btn-primary,
 .colorBrand-3pXr91:not([style*="background-color"]):not(.lookFilled-1Gx00P) .spinnerItem-3GlVyU,
 .platform-iik236.active-iLSdWQ .downloadButton-1bWXpg,
@@ -260,7 +259,6 @@
 .btn-1PnLxm.btnPrimary-1jluZW:hover:not(:disabled),
 .btn-15Au6M.btnPrimary-ggBniE:hover:not(:disabled),
 .bd-modal-wrapper .footer button:hover,
-.bd-pfbtn:hover,
 .bda-settings-button:not(:disabled):hover,
 .btn-primary:hover,
 .platform-iik236.active-iLSdWQ .downloadButton-1bWXpg:hover,
@@ -276,7 +274,6 @@
 .btn-1PnLxm.btnPrimary-1jluZW:active:not(:disabled),
 .btn-15Au6M.btnPrimary-ggBniE:active:not(:disabled),
 .bd-modal-wrapper .footer button:active,
-.bd-pfbtn:active,
 .bda-settings-button:not(:disabled):active,
 .btn-primary:active,
 .platform-iik236.active-iLSdWQ .downloadButton-1bWXpg:active,
@@ -5416,7 +5413,6 @@ body:before {
 .btn-1PnLxm.btnPrimary-1jluZW,
 .btn-15Au6M.btnPrimary-ggBniE,
 .bd-modal-wrapper .footer button,
-.bd-pfbtn,
 .bda-settings-button,
 .btn-primary,
 .colorBrand-3pXr91:not([style*="background-color"]):not(.lookFilled-1Gx00P),
@@ -6476,11 +6472,6 @@ img[src="/assets/e8b66317ab0dc9ba3bf8d41a4f3ec914.png"] {	/* videosettings		opus
 	color: rgb(var(--fontwhite3));
 }
 
-#pubslayer button,
-.bda-slist .bda-footer button,
-.bd-pfbtn {
-	color: rgb(var(--fontwhite1));
-}
 #app-mount .bda-slist .bda-header {
 	color: rgb(var(--fontwhite1));
 	border-bottom-color: rgba(var(--fontwhite4), 0.3);
@@ -7065,4 +7056,5 @@ body #ace_settingsmenu input[type="checkbox"]:checked:after {
 
 .homeWrapper-3-Wh5T {
 	background-color: black;
+
 }

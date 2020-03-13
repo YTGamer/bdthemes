@@ -380,7 +380,6 @@
 .animatedGuildIcon-T0S3hV,
 .uploadIcon-2eU0gH,
 .verified-1eC5dy,
-.operations-36ENbA > a,
 .skipTips-2ftiX7 a,
 .form-236Xmo .controlGroup-2GQ-D1 label a,
 .downloadApps-wbBFdZ .footer-1nkeBm a,
@@ -2002,8 +2001,7 @@ body:before {
 	background-color: rgba(var(--vtransparencycolor), 0.4);
 }
 
-#app-mount .localBotMessage-3cUzun,							/* message				localbotoperations					*/
-#app-mount .operations-36ENbA {								/* message				editoperations						*/
+#app-mount .localBotMessage-3cUzun {							/* message				localbotoperations					*/
 	color: rgb(var(--fontwhite3));
 }
 
@@ -2031,22 +2029,6 @@ body:before {
 .container-3-pyIM {											/* systemmessage		content								*/
 	color: rgb(var(--fontwhite3));
 }
-.icon-2Po-VO[style*="/assets/5da4cdab01d4d89c593c48c62ae0d937.svg"] {		/* systemmessage			pinicon									*/
-	-webkit-mask: url(https://discordapp.com/assets/5da4cdab01d4d89c593c48c62ae0d937.svg) center/cover no-repeat;
-	background: rgb(var(--fontwhite3)) !important;
-}
-.icon-2Po-VO[style*="/assets/d80d1fdc43a3c42134a31a39581160ac.svg"] {		/* systemmessage			missedcall								*/
-	-webkit-mask: url(https://discordapp.com/assets/d80d1fdc43a3c42134a31a39581160ac.svg) center/cover no-repeat;
-	background: rgb(var(--fontwhite3)) !important;
-}
-.icon-2Po-VO[style*="/assets/b8029fe196b8f1382e90bbe81dab50dc.svg"] {		/* systemmessage			joincallicon							*/
-	-webkit-mask: url(https://discordapp.com/assets/b8029fe196b8f1382e90bbe81dab50dc.svg) center/cover no-repeat;
-	background: rgb(var(--vaccentcolor)) !important;
-}
-.icon-2Po-VO[style*="/assets/c30220457097b064286a8759a9b6c4af.svg"] {		/* systemmessage			recievecallicon							*/
-	-webkit-mask: url(https://discordapp.com/assets/c30220457097b064286a8759a9b6c4af.svg) center/cover no-repeat;
-	background: rgb(var(--vaccentcolor)) !important;
-}
 
 /* ====		6.2.2.	EMBEDS							==== */
 
@@ -2070,10 +2052,6 @@ body:before {
 	color: rgb(var(--fontwhite4));
 }
 
-#app-mount .attachment-33OFj0 {								/* attachment			container							*/
-	background-color: rgba(var(--vtransparencycolor), 0.3);
-	border-color: rgba(var(--vtransparencycolor), 0.1);
-}
 #app-mount .metadata-3WGS0M {								/* attachment			metadata							*/
 	color: rgb(var(--fontwhite4));
 }

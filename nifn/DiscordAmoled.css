@@ -474,13 +474,7 @@
 .selectableItem-1MP3MQ.selected-31soGA,
 .regionSelect-3lf4eE:hover button,
 .toast-brand,
-.noticeBrand-3nQBC_,
-[style*="background-color: rgb(114, 137, 218)"],
-[style*="background-color: #7289da"],
-[style*="background-color: #7289DA"],
-[background-color="rgb(114, 137, 218)"],
-[background-color="#7289da"],
-[background-color="#7289DA"] {
+.noticeBrand-3nQBC_ {
 	background-color: rgb(var(--vaccentcolor)) !important;
 }
 .headerStreaming-2FjmGz {

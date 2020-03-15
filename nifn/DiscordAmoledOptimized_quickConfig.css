@@ -19,16 +19,16 @@ html:only-child > head + body > div#app-mount.appMount-3lHmkl > div.app-1q1i1E >
 }
 
 :root {
-	--transparencycolor:		0,0,0;							/* default: 0,0,0																*/
-	--transparencyalpha:		0;							/* default: 0																	*/
-	--messagetransparency:		0;							/* default: 0																	*/
-	--guildchanneltransparency:	0;							/* default: 0																	*/
-	--memberlistransparency:	0;							/* default: 0																	*/
-	--accentcolor:			66,71,77;						/* default: 66,71,77																*/
+	--transparencycolor:		0,0,0;		/* default: 0,0,0	*/
+	--transparencyalpha:		0;		/* default: 0		*/
+	--messagetransparency:		0;		/* default: 0		*/
+	--guildchanneltransparency:	0;		/* default: 0		*/
+	--memberlistransparency:	0;		/* default: 0		*/
+	--accentcolor:			66,71,77;	/* default: 66,71,77	*/
 	
-	--background:			#000000;						/* default: #000000																*/
+	--background:			#000000;	/* default: #000000	*/
 	
-	--popout:			#000000;						/* default: #000000																*/
+	--popout:			#000000;	/* default: #000000	*/
 	
-	--backdrop:			rgb(0,0,0);						/* default: rgb(0,0,0)																*/
+	--backdrop:			rgb(0,0,0);	/* default: rgb(0,0,0)	*/
 }

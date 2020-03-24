@@ -3437,13 +3437,6 @@ body:before {
 
 /* ~~~~		14.		MODALS							~~~~ */
 
-#app-mount .root-1gCeng,									/* modal				container (foldersettings)			*/
-#app-mount .modal-yWgWj- {									/* modal				container							*/
-	background-color: transparent;
-	box-shadow: 0 0 0 1px rgba(var(--vtransparencycolor), 0.3), 0 2px 10px 0 rgba(var(--vtransparencycolor), 0.3);
-	position: relative;
-	border-radius: 5px;
-}
 .root-1gCeng:after,
 .root-1gCeng:before,
 .modal-yWgWj-:after,
@@ -3642,110 +3635,7 @@ body:before {
 	color: rgb(var(--fontwhite2));
 }
 
-/* ----		14.2.	GUILDADD/CREATION				----- */
-
-#app-mount .wrapper-2ZbzR9 {								/* modal				wrapper								*/
-	background: transparent;
-}
-.wrapper-2ZbzR9 > * > * {
-	transform: unset !important;
-}
-#app-mount .slide-2pHaq5 {									/* modal				slide								*/
-	background: transparent;
-}
-#app-mount .action-1lSjCi {
-	background-color: rgba(var(--vtransparencycolor), 0.2);
-	border-color: rgba(var(--vtransparencycolor), 0.2);
-	box-shadow: 0 2px 4px rgba(var(--vtransparencycolor), 0.1);
-}
-#app-mount .actionBody-1qj65C {								/* modal				actiontext							*/
-	color: rgb(var(--fontwhite2));
-}
-#app-mount .actionButton-2PeQbJ {							/* modal				actionbutton						*/
-	color: rgb(var(--fontwhite1));
-}
-#app-mount .or-3THJsp {										/* modal				oricon								*/
-	-webkit-mask: url(https://discordapp.com/assets/b9cf5548cc5a23a6943f194a0ace88f8.svg) center/52px 52px no-repeat;
-	background: none;
-	color: rgb(var(--fontwhite1));
-	line-height: 306px;
-    order: unset;
-    height: 100%;
-    width: 100%;
-    top: 0;
-    left: 0;
-    border-radius: unset;
-    border: unset;
-}
-.or-3THJsp:after,
-.or-3THJsp:before {
-	content: "";
-	position: absolute;
-	top: 0;
-	bottom: 0;
-	right: 0;
-	left: 0;
-	width: unset;
-	height: unset;
-	pointer-events: none;
-	z-index: -1;
-}
-.or-3THJsp:after {
-	background-color: rgba(var(--vtransparencycolor), calc(var(--vtransparencyalpha) + 0.2));
-}
-.or-3THJsp:before {
-	background-color: var(--vpopout);
-}
-#app-mount .cancelButton-RGXhAE {							/* modal				cancelbutton						*/
-	color: rgb(var(--fontwhite2));
-}
-#app-mount .cancelButton-RGXhAE:hover {
-	color: rgb(var(--fontwhite1));
-	border-bottom-color: rgb(var(--fontwhite1));
-}
-#app-mount .cancelButton-RGXhAE:before {
-	-webkit-mask: url(https://discordapp.com/assets/eb57a76361c43375bf23207ad2acc631.svg) 0/18px 12px no-repeat;
-	background: rgb(var(--fontwhite2));
-}
-#app-mount .cancelButton-RGXhAE:hover:before {
-	background: rgb(var(--fontwhite1));
-}
-
-#app-mount .description-QF3836 {							/* create				description							*/
-	color: rgb(var(--fontwhite2));
-}
-#app-mount .helpText-h3r3wC {								/* create				helptext							*/
-	color: rgb(var(--fontwhite2));
-}
-.avatar-21196O {											/* create				avataruploader						*/
-	border-color: rgb(var(--fontwhite1));
-}
-.avatarUploaderAcronym-3SioMc,								/* create				avataruploaderacronym				*/
-.avatarUploaderHint-3SN212 {								/* create				avataruploaderhint					*/
-	color: rgb(var(--fontwhite1));
-}
-.avatarUploader-3XDtmn .sizeInfo-SKMPPw {					/* create				avatarsizeinfo						*/
-	color: rgb(var(--fontwhite2));
-}
-#app-mount .regionSelect-3lf4eE .regionSelectInner-24f4Ce,	/* create				regionselect						*/
-#app-mount .regionSelect-3lf4eE button {
-	border-color: rgb(var(--fontwhite1));
-}
-#app-mount .regionSelect-3lf4eE:hover button {
-	color: rgb(var(--fontwhite1));
-}
-#app-mount .regionSelectName-2-2FWh {						/* create				regionselectname					*/
-	color: rgb(var(--fontwhite2));
-}
-
-#app-mount .description-Bw8krY {							/* join					description							*/
-	color: rgb(var(--fontwhite2));
-}
-#app-mount .inputLabel-vJ2Z0B {								/* join					inputlabel							*/
-	color: rgb(var(--fontwhite2));
-}
-
-/* ----		14.3.	REGIONSELECTMODAL				---- */
+/* ----		14.2.	REGIONSELECTMODAL				---- */
 
 #app-mount .regionSelectModal-12e-57 {						/* modal				container							*/
 	background-color: transparent;
@@ -3783,7 +3673,7 @@ body:before {
 	color: rgb(var(--fontwhite3));
 }
 
-/* ----		14.4.	UPLOADMODAL						---- */
+/* ----		14.3.	UPLOADMODAL						---- */
 
 #app-mount .uploadModal-2ifh8j {							/* modal				container							*/
 	background-color: transparent;
@@ -3848,7 +3738,7 @@ body:before {
 	box-shadow: 0 2px 8px rgba(var(--vtransparencycolor), 0.4);
 }
 
-/* ----		14.5.	KEYBOARDSHORTCUTSMODAL			---- */
+/* ----		14.4.	KEYBOARDSHORTCUTSMODAL			---- */
 
 #app-mount .keyboardShortcutsModal-3piNz7 {					/* modal				container							*/
 	background-color: transparent;
@@ -3898,7 +3788,7 @@ body:before {
 	fill: rgb(var(--fontwhite1));
 }
 
-/* ----		14.6.	QUICKSWITCHER					---- */
+/* ----		14.5.	QUICKSWITCHER					---- */
 
 #app-mount .quickswitcher-3JagVE {							/* modal				container							*/
 	background-color: transparent;
@@ -3968,7 +3858,7 @@ body:before {
 	background-color: rgba(var(--fontwhite4), 0.3);
 }
 
-/* ----		14.7.	INVITEMODAL						---- */
+/* ----		14.6.	INVITEMODAL						---- */
 
 #app-mount .contentWrapper-3WC1ID {								/* modal				guildinvitemodal				*/
 	background-color: transparent;
@@ -4023,7 +3913,7 @@ body:before {
 	background-color: rgba(var(--vtransparencycolor), 0.5);
 }
 
-/* ----		14.8.	LOGINSCREEN						---- */
+/* ----		14.7.	LOGINSCREEN						---- */
 
 #app-mount .wrapper-3Q5DdO {								/* login				wrapper								*/
 	background: transparent;
@@ -4053,7 +3943,7 @@ body:before {
 	color: rgb(var(--fontwhite3));
 }
 
-/* ----		14.9.	TERMACCEPTMODAL					---- */
+/* ----		14.8.	TERMACCEPTMODAL					---- */
 
 #app-mount .modal-DRZfgq {									/* modal				container							*/
 	background-color: transparent;
@@ -6844,4 +6734,20 @@ body #ace_settingsmenu input[type="checkbox"]:checked:after {
 
 .membersGroup-v9BXpm:hover, .member-3-YXUe:hover {
 	color: white !important;
+}
+
+.theme-light .action-1lSjCi, .theme-dark .action-1lSjCi {
+	background: transparent;
+}
+
+.header-3ZP1MY {
+	color: var(--defaultcolor);
+}
+
+.colorStandard-2KCXvj {
+	color: rgba(255, 255, 255, 0.8);
+}
+
+.theme-light .modal-yWgWj-, .theme-dark .modal-yWgWj- {
+	background-color: var(--vpopout)
 }

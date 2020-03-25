@@ -1,0 +1,9 @@
+.userInfoViewing-16kqK3 .flexChild-faoVW3 > div:nth-child(2) .viewBody-2Qz-jg.selectable-x8iAUj {
+	filter: blur(5px);
+	transition: 100ms;
+}
+
+.userInfoViewing-16kqK3 .flexChild-faoVW3:hover > div:nth-child(2) .viewBody-2Qz-jg.selectable-x8iAUj:hover {
+	filter: blur(0px);
+	transition: 1000ms;
+}

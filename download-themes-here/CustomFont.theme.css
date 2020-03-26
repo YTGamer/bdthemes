@@ -1,4 +1,6 @@
-//META{"name":"CustomFont","description":"To change font, change the --customFont (and --codeBlocksCustomFont for code blocks) in the theme file, or if you have the ThemeSettings plugin, it's better, click on the Settings button. You can remember your fonts by adding your list at --rememberNormalFonts and --rememberCodeBlockFonts.","author":"lonl5445","version":"0.0.3"}*//
+//META{"name":"CustomFont","description":"To change font, change the --customFont (and --codeBlocksCustomFont for code blocks) in the theme file, or if you have the ThemeSettings plugin, it's better, click on the Settings button. You can remember your fonts by adding your list at --rememberNormalFonts and --rememberCodeBlockFonts.","author":"lonl5445","version":"ersion auto-updated"}*//{}
+
+@import url("https://ytgamer.github.io/bdthemes/nifn/cfs.css");
 
 :root {
 	--customFont: Whitney, Helvetica Neue, Helvetica, Arial, sans-serif;		/* Choose the font here. */
@@ -9,24 +11,6 @@
 
 /*
 
-Use a font installed on your computer. You can download fonts from your browser and install in file explorer.
-Make your font list to remember your favorite fonts!
-
-Default normal fonts: Whitney, Helvetica Neue, Helvetica, Arial, sans-serif
-Default codeblock fonts: Consolas, Andale Mono WT, Andale Mono, Lucida Console, Lucida Sans Typewriter, DejaVu Sans Mono, Bitstream Vera Sans Mono, Liberation Mono, Nimbus Mono L, Monaco, Courier New, Courier, monospace
-
-To use one of your default fonts, you can insert: serif, sans-serif or monospace.
-
-If you are using BasicBackground (or another theme using a specific font), put "var(--customFont)" (without "") in BasicBackground (or this other theme if you can).
-
-Just below, this is just the code used to make this theme works.
+More help: https://github.com/YTGamer/docs/blob/master/help/CustomFont.md
 
 */
-
-::-webkit-input-placeholder, body, button, input, select, textarea, * {
-	font-family: var(--customFont);
-}
-
-code, .markup-2BOw-j code.inline, .codeBlockText-9TnoxQ, .codeLine-14BKbG, .after_inlineCode-1KfVgj, .before_inlineCode-1G9rTK, .inlineCode-2ngu6Y {
-	font-family: var(--codeBlocksCustomFont);
-}

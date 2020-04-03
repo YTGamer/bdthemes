@@ -1364,12 +1364,6 @@ body:before {
 
 /* ~~~~		4.		GUILDLIST						~~~~ */
 
-.childWrapper-anI2G9,										/* homebutton/acronym	innerwrap							*/
-#bd-pub-button {											/* publicbutton			innerwrap							*/
-	background-color: rgba(var(--vtransparencycolor), 0.3);
-	color: rgb(var(--fontwhite1));
-	font-weight: 500;
-}
 .wrapper-1BJsBx:hover svg,
 .wrapper-1BJsBx.selected-bZ3Lue svg {
 	filter: drop-shadow(1px 1px var(--vtextshadow));
@@ -1931,114 +1925,14 @@ body:before {
 
 /* ----		6.3.	TEXTAREA						---- */
 
-
-
-.form-2fGMdU {												/* textarea				form								*/
-	position: relative;
-	padding-top: 10px;
+.scrollableContainer-2NUZem, .channelTextArea-rNsIhG {
+	background: transparent;
 }
-.form-2fGMdU > * {
-	z-index: 1;
-}
-.form-2fGMdU:after,
+
 .form-2fGMdU:before {
-	display: flex;
-	content: "";
-	position: absolute;
-	top: 0;
-	bottom: 0;
-	right: 8px;
-	left: 0;
-	height: unset;
-	width: unset;
-	pointer-events: none;
-}
-.form-2fGMdU:after {
-	background-color: var(--vbackground);
-}
-.form-2fGMdU:before {
-	background-color: var(--vbackground);
-	background-attachment: fixed;
+	display: none;
 }
 
-.channelTextArea-rNsIhG {									/* textarea				channeltextarea						*/
-	background-color: transparent;
-	border-top-color: rgba(var(--fontwhite1), 0.1);
-}
-
-.scrollableContainer-2NUZem {								/* textarea				container							*/
-	background-color: rgba(0,0,0,0);
-}
-
-.attachButtonPlus-jWVFah {									/* textarea				attachbuttoninner					*/
-	fill: rgb(var(--fontwhite3));
-}
-.attachButton-2WznTc:hover .attachButtonPlus-jWVFah {
-	fill: rgb(var(--fontwhite2));
-}
-.attachButton-2WznTc:active .attachButtonPlus-jWVFah {
-	fill: rgb(var(--fontwhite1));
-}
-.attachWrapper-2TRKBi {										/* textarea				attachdivider						*/
-	border-color: rgb(var(--fontwhite3));
-}
-
-#app-mount .textArea-12jD-V {								/* textarea				textarea							*/
-	color: rgb(var(--fontwhite1));
-}
-#app-mount .textArea-12jD-V::placeholder {
-	color: rgb(var(--fontwhite4));
-}
-.placeholder-37qJjk,
-.slateTextArea-1Mkdgw .hljs-comment,
-.slateTextArea-1Mkdgw .hljs-quote {
-	color: rgb(var(--fontwhite4));
-}
-
-.button-3AYNKb {											/* textarea				buttons								*/
-	color: rgb(var(--fontwhite3));
-}
-.button-3AYNKb:hover,
-.buttonWrapper-1ZmCpA:hover .icon-3D60ES {
-	color: rgb(var(--fontwhite2));
-}
-.active-23Nm0T .icon-3D60ES,
-.active-23Nm0T:hover .icon-3D60ES {
-	color: rgb(var(--fontwhite1));
-}
-.sprite-2iCowe {											/* textarea				emojibutton							*/
-	transform: none !important;
-}
-
-.base-gE7OpD {												/* textarea				typingusers							*/
-	color: rgb(var(--fontwhite1));
-}
-
-.wrapper-39oAo3 {											/* textarea				placeholder							*/
-	background-color: rgba(var(--vtransparencycolor), 0.3);
-	color: rgb(var(--fontwhite2));
-}
-
-.toolbar-2bjZV7 {											/* textarea				formattoolbar						*/
-	background-color: rgb(var(--vaccentcolor));
-}
-.toolbar-2bjZV7:before {
-	border-top-color: rgb(var(--vaccentcolor));
-}
-.divider-24xeUg {											/* textarea				formattoolbardivider				*/
-	border-left-color: rgba(var(--fontwhite1), 0.1);
-}
-.active-2HPddW,												/* textarea				buttonactive						*/
-.hover-28QbSq:hover {										/* textarea				buttonhover							*/
-	background-color: rgba(var(--fontwhite1), 0.2);
-}
-.icon-KgGMGo {												/* textarea				buttonicon							*/
-	color: rgb(var(--fontwhite2));
-}
-.active-2HPddW .icon-KgGMGo,
-.hover-28QbSq:hover .icon-KgGMGo {
-	color: rgb(var(--fontwhite1));
-}
 
 /* ----		6.4.	AUTOCOMPLETEMENU				---- */
 

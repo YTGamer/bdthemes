@@ -1765,16 +1765,8 @@ body:before {
 .welcomeMessage-3_Mcht p {									/* welcomemessage		line								*/
 	color: rgb(var(--fontwhite2));
 }
-.divider-JfaTT5:not(.isUnread-3Ef-o9) {						/* divider				time								*/
-	border-color: rgba(var(--fontwhite1), 0.2);
-}
-.divider-JfaTT5.hasContent-1cNJDh {							/* divider				hascontent							*/
-	border-color: transparent;
-}
 .content-1o0f9g {											/* divider				content								*/
-	background-color: rgba(var(--vtransparencycolor), 0.2);
-	color: rgb(var(--fontwhite3));
-	width: 100%;
+	background-color: rgba(0,0,0,1);
 	text-align: center;
 }
 

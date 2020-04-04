@@ -1827,11 +1827,9 @@ body:before {
 	pointer-events: none;
 	z-index: -1;
 }
-.wrapper-2aW0bm:after {
-	background-color: rgba(var(--vtransparencycolor), calc(var(--vtransparencyalpha) + 0.25));
-}
 .wrapper-2aW0bm:before {
 	background-color: var(--vpopout);
+	border-radius: 5px;
 }
 .separator-42rNt0 {											/* message				buttonsseparator					*/
 	border-left-color: rgba(var(--fontwhite1), 0.1);
@@ -1926,7 +1924,8 @@ body:before {
 /* ----		6.3.	TEXTAREA						---- */
 
 .scrollableContainer-2NUZem, .channelTextArea-rNsIhG {
-	background: transparent;
+	background-color: #000000;
+	border-color: var(--vaccentcolor);
 }
 
 .form-2fGMdU:before {
@@ -1937,7 +1936,7 @@ body:before {
 /* ----		6.4.	AUTOCOMPLETEMENU				---- */
 
 #app-mount .autocomplete-1vrmpx {							/* autocomplete			container							*/
-	background-color: transparent;
+	background-color: var(--vpopout);
 	overflow: hidden;
 }
 #app-mount .autocomplete-1vrmpx:after,

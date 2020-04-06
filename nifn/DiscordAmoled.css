@@ -1423,17 +1423,6 @@ body:before {
 
 /* ----		5.1.	GUILDHEADER						---- */
 
-.container-2Rl01u .animatedContainer-1pJv5C {				/* banner				wrap								*/
-	background: none;
-	box-shadow: none;
-}
-.bannerImage-1jOskm {										/* banner				image								*/
-	-webkit-mask: linear-gradient(rgba(0,0,0,0.9) 70%, rgba(0,0,0,0) 100%);
-}
-.bannerImage-1jOskm:before {
-	display: none;
-}
-
 .header-2o-2hj,												/* header				inner								*/
 .searchBar-6Kv8R2 {											/* header				searchbar							*/
 	box-shadow: 0 1px 0 rgba(var(--vtransparencycolor), 0.2), 0 1.5px 0 rgba(var(--vtransparencycolor), 0.05), 0 2px 0 rgba(var(--vtransparencycolor), 0.05);

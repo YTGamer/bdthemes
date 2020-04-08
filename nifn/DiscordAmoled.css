@@ -6548,16 +6548,30 @@ body #ace_settingsmenu input[type="checkbox"]:checked:after {
 	background-color: var(--vbackground);
 }
 
-.messageContent-2qWWxC:hover, .username-1A8OIy:hover {
-	color: white !important;
-}
-
-#pubslayer .ui-tab-bar-item.selected, #app-mount #bd-settings-sidebar .ui-tab-bar-item.selected {
-	background-color: rgb(var(--vaccentcolor));
+.membersGroup-v9BXpm, .member-3-YXUe {
+	transition: 200ms !important;
+	transition-delay: 0ms !important;
 }
 
 .membersGroup-v9BXpm:hover, .member-3-YXUe:hover {
 	color: white !important;
+	transition: 200ms !important;
+	transition-delay: 0ms !important;
+}
+
+.messageContent-2qWWxC, .username-1A8OIy {
+	transition: 300ms !important;
+	transition-delay: 0ms !important;
+}
+
+.messageContent-2qWWxC:hover, .username-1A8OIy:hover {
+	color: white !important;
+	transition: 200ms !important;
+	transition-delay: 300ms !important;
+}
+
+#pubslayer .ui-tab-bar-item.selected, #app-mount #bd-settings-sidebar .ui-tab-bar-item.selected {
+	background-color: rgb(var(--vaccentcolor));
 }
 
 .theme-light .action-1lSjCi, .theme-dark .action-1lSjCi {

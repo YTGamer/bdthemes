@@ -1334,7 +1334,7 @@ body:before {
 	top: 0;
 	left: 0;
 	width: 100%;
-	background-color: #131417;
+	background-color: var(--titlebarcolor);
 }
 .titleBar-AC4pGV:not(.typeMacOS-3EmCyP):after {
 	height: 22px;

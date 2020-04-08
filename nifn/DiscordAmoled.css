@@ -4803,13 +4803,8 @@ body:before {
 	border-radius: 0 0 5px 5px;
 	color: rgb(var(--fontwhite3));
 }
-#app-mount .row-rrHHJU,										/* popout				row									*/
-#app-mount .row-rrHHJU span {								/* popout				rowspan								*/
-	color: rgb(var(--fontwhite2));
-}
-#app-mount .row-rrHHJU.selected-1pIgLL {
-	background: rgba(var(--vtransparencycolor), 0.2);
-	border-radius: 0 5px 5px 0;
+#app-mount .row-rrHHJU {									/* popout				row									*/
+	background-color: var(--vpopout);
 }
 
 

@@ -1905,7 +1905,7 @@ body:before {
 /* ----		6.3.	TEXTAREA						---- */
 
 .scrollableContainer-2NUZem, .channelTextArea-rNsIhG {
-	background-color: #000000;
+	background-color: var(--messageboxcolor);
 	border-color: var(--vaccentcolor);
 }
 

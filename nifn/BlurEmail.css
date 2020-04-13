@@ -1,9 +1,9 @@
-.userInfoViewing-16kqK3 .flexChild-faoVW3 > div:nth-child(2) .viewBody-2Qz-jg.selectable-x8iAUj {
-	filter: blur(5px);
-	transition: 100ms;
+.userSettingsAccount-2eMFVR>div>div>div>div:nth-child(2)>div:nth-child(2)>div:nth-child(2):not(.inputWrapper-31_8H8) {
+	filter: blur(5px) !important;
+	transition: 100ms !important;
 }
 
-.userInfoViewing-16kqK3 .flexChild-faoVW3:hover > div:nth-child(2) .viewBody-2Qz-jg.selectable-x8iAUj:hover {
-	filter: blur(0px);
-	transition: 1000ms;
+.userSettingsAccount-2eMFVR>div>div>div>div:nth-child(2)>div:nth-child(2)>div:nth-child(2):hover:not(.inputWrapper-31_8H8) {
+	filter: blur(0px) !important;
+	transition: 1000ms !important;
 }

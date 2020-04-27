@@ -1988,7 +1988,7 @@ body:before {
 	background-color: rgba(var(--fontwhite4), 0.3);
 }
 #app-mount .selectorSelected-1_M1WV {					/* autocomplete				rowselected							*/
-	background-color: rgba(var(--vtransparencycolor), 0.3);
+	background-color: #36393f;
 }
 #app-mount .content-Qb0rXO {							/* autocomplete				rowcontent							*/
 	color: rgb(var(--fontwhite2));
@@ -5480,19 +5480,16 @@ body:before {
 #app-mount .optionNormal-12VR9V,
 .css-1aymab5-option,
 .css-ddw2o3-option {
-	background-color: rgba(var(--vtransparencycolor), 0.1);
-	color: rgb(var(--fontwhite2));
+	background-color: var(--titlebarcolor);
+	color: rgb(var(--fontwhite3));
+}
+#app-mount .optionActive-KkAdqq {
+	background-color: #212226;
 }
 #app-mount .optionNormal-12VR9V:hover,
 .css-1gnr91b-option,
 .css-qgio2y-option {
-	background-color: rgba(var(--vtransparencycolor), 0.3);
-	color: rgb(var(--fontwhite2));
-}
-#app-mount .optionActive-KkAdqq,
-.css-12o7ek3-option,
-.css-1kft5vg-option {
-	background-color: rgba(var(--vtransparencycolor), 0.5);
+	background-color: var(--titlebarcolor);
 	color: rgb(var(--fontwhite1));
 }
 #app-mount .popout-2sKjHu {

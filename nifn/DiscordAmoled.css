@@ -3782,7 +3782,7 @@ body:before {
 	display: none;
 }
 #app-mount .authBox-hW6HRx {								/* login				modal								*/
-	background-color: rgba(var(--vtransparencycolor), 0.5);
+	background-color: rgb(var(--vtransparencycolor));
 	box-shadow: 0 0 0 1px rgba(var(--vtransparencycolor), 0.3), 0 2px 10px 0 rgba(var(--vtransparencycolor), 0.3);
 	color: rgb(var(--fontwhite3));
 	position: relative;

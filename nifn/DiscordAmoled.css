@@ -1905,8 +1905,8 @@ body:before {
 /* ----		6.3.	TEXTAREA						---- */
 
 .scrollableContainer-2NUZem {
-	background-color: var(--messageboxcolor);
-	border-color: var(--vaccentcolor);
+	background-color: var(--messageboxcolor) !important;
+	border-color: var(--vaccentcolor) !important;
 }
 
 .channelTextArea-rNsIhG {
@@ -3898,7 +3898,7 @@ body:before {
 #app-mount .quickSelectPopout-X1hvgV,						/* quickselect			(for example regionselect)			*/
 #app-mount .themedPopout-1TrfdI,							/* themed popout		(for example mentionpopout)			*/
 #app-mount .popoutList-T9CKZQ {								/* listpopout			(for example auditlogs)				*/
-	background-color: transparent;
+	background-color: var(--popout);
 	border: none;
 	border-radius: 5px;
 	box-shadow: 0 0 0 1px rgba(var(--vtransparencycolor), 0.3), 0 2px 10px 0 rgba(var(--vtransparencycolor), 0.3);

@@ -101,7 +101,7 @@ span.mention.wrapper-3WhCwL.da-wrapper.mention.interactive,							/* mentions: y
 
 html:only-child > head + body > div#app-mount.appMount-3lHmkl > div.app-1q1i1E > div.app-2rEoOp:before {
 	content: "This version of Modernizer is outdated. Please redownload the newest version from: https://github.com/YTGamer/bdthemes (or by clicking Source)" !important;
-	display: var(--version001-alpha, block) !important;
+	display: var(--version002-alpha, block) !important;
 	background-color: #3e82e5 !important;
 	box-shadow: 0 0px 30px 0 #3e82e5 !important;
 	color: rgb(var(--fontwhite1)) !important;

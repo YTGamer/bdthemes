@@ -1,0 +1,19 @@
+/**
+
+ * @name Modernizer
+ * @author lonl5445
+ * @version 0.0.1 (ALPHA)
+ * @description Changes the style of some elements, by changing the border radiuses, categories names and others.
+ * @source https://github.com/YTGamer/bdthemes
+ * @website https://discord.me/nn1080
+
+*/
+
+@import url()
+
+:root {
+	--borderRadius: 25px; /* Default: 25px */
+	--borderWidth: 3px; /* Default: 3px */
+
+	--version001-alpha: none; /* please do not change, it's used to hide the update notice */
+}

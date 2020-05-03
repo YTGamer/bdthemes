@@ -1,0 +1,48 @@
+#app-mount .sidebar-2K8pFh {
+	width: var(--size);
+	transition: var(--time);
+	transition-delay: var(--delayOut);
+}
+
+#app-mount .sidebar-2K8pFh:hover {
+	width: var(--sizeOnHover);
+	transition: var(--time);
+	transition-delay: var(--delayIn);
+}
+
+.membersWrap-2h-GB4 {
+	width: 10px;
+}
+
+html:only-child > head + body > div#app-mount.appMount-3lHmkl > div.app-1q1i1E > div.app-2rEoOp:before {
+	content: "This version of CompactChannels is outdated. Please redownload the newest version from: https://github.com/YTGamer/bdthemes (or by clicking Source)" !important;
+	display: var(--version001, block) !important;
+	background-color: #3e82e5 !important;
+	box-shadow: 0 0px 30px 0 #3e82e5 !important;
+	color: white !important;
+	flex-grow: 0 !important;
+	flex-shrink: 0 !important;
+	font-size: 16px !important;
+	font-weight: 500 !important;
+	height: 36px !important;
+	line-height: 36px !important;
+	opacity: 1 !important;
+	padding-left: 4px !important;
+	padding-right: 28px !important;
+	position: relative !important;
+	text-align: center !important;
+	visibility: unset !important;
+	white-space: pre !important;
+	top: 0 !important;
+	left: 0 !important;
+	bottom: unset !important;
+	right: unset !important;
+	max-width: unset !important;
+	min-width: unset !important;
+	max-height: unset !important;
+	min-height: unset !important;
+	transform: unset !important;
+	animation: unset !important;
+	z-index: 101 !important;
+	pointer-events: none !important;
+}

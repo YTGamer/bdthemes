@@ -6,12 +6,6 @@
 }
 /*	Padding (to fix ITC)									end		*/
 
-/*	UT11 Underline on hover									start	*/
-.username-1A8OIy:hover, .username-lm8y6T:hover {
-	color: #7289da !important;
-}
-/*	UT11 Underline on hover									end		*/
-
 /*	UT91 cfg												start	*/
 .messageContent-2qWWxC {
 	text-align: var(--alignMessages);

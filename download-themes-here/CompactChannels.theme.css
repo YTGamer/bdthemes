@@ -2,7 +2,7 @@
 
  * @name Compact channels
  * @author lonl5445
- * @version ersion (download) 0.0.1
+ * @version ersion (download) 0.0.2
  * @description Compact channels list — Customizable in the theme file
  * @source https://github.com/YTGamer/bdthemes
  * @website https://discord.me/nn1080
@@ -22,5 +22,5 @@
 	--delayOut		:	300ms	;	/* Transition delay before resizing by --size (in ms)			Default: 300ms	*/
 
 /*	Update																											*/
-	--version001	:	none	;	/* Please do not change, it's used to hide the update notice	Default: none	*/
+	--version002_cc	:	none	;	/* Please do not change, it's used to hide the update notice	Default: none	*/
 }

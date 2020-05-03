@@ -1,0 +1,26 @@
+/**
+
+ * @name Compact channels
+ * @author lonl5445
+ * @version ersion (download) 0.0.1
+ * @description Compact channels list — Customizable in the theme file
+ * @source https://github.com/YTGamer/bdthemes
+ * @website https://discord.me/nn1080
+
+*/
+
+@import url(https://ytgamer.github.io/bdthemes/nifn/CompactChannels.css);
+
+:root {
+/*	Size																											*/
+	--size			:	3.1em	;	/* Channels list size (in px, em, etc…)							Default: 3.1em	*/
+	--sizeOnHover	:	24em	;	/* Channels list size on hover (in px, em, etc…)				Default: 24em	*/
+
+/*	Transitions																										*/
+	--time			:	250ms	;	/* Transition time (in ms)										Default: 250ms	*/
+	--delayIn		:	50ms	;	/* Transition delay before resizing by --sizeOnHover (in ms)	Default: 50ms	*/
+	--delayOut		:	300ms	;	/* Transition delay before resizing by --size (in ms)			Default: 300ms	*/
+
+/*	Update																											*/
+	--version001	:	none	;	/* Please do not change, it's used to hide the update notice	Default: none	*/
+}

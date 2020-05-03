@@ -20,6 +20,8 @@ span.mention.wrapper-3WhCwL.da-wrapper.mention.interactive,							/* mentions: y
 .item-26Dhrx,																		/* settings item */
 .rem-2m9HGf.botTag-2WPJ74,															/* bottags messages */
 .px-10SIf7.botTag-2WPJ74,															/* bottags memberlist */
+.card-2j1p1_,																		/* permissions sync */
+.theme-dark .elevationHigh-1PneE4,													/* permissions unsaved */
 .userInfoViewing-16kqK3,															/* settings account */
 .ctaBar-2UsjF2,																		/* serverboost */
 #app-mount #bd-settings-sidebar .ui-tab-bar-item,									/* settings bd-tab */
@@ -37,7 +39,16 @@ span.mention.wrapper-3WhCwL.da-wrapper.mention.interactive,							/* mentions: y
 {
 	border-radius: var(--borderRadius) !important;									/* radius please */
 }
-
+.item-3T2z1R:first-child															/* permissions left */
+{
+	border-top-left-radius: var(--borderRadius);
+	border-bottom-left-radius: var(--borderRadius);
+}
+.item-3T2z1R:last-child																/* permissions left */
+{
+	border-top-right-radius: var(--borderRadius);
+	border-bottom-right-radius: var(--borderRadius);
+}
 .headerText-1-AnT0, .container-2ax-kl {												/* categories */
 	text-transform: none;
 }

@@ -2,7 +2,7 @@
 
  * @name Discord AMOLED dark theme Optimized
  * @author lonl5445
- * @version ersion (download) 0.0.3
+ * @version ersion (download) 0.0.4
  * @description Enable Discord AMOLED dark theme optimized for computers (on mobile, click 10 times on \"Dark\" in the appearance settings).
  * @source https://github.com/YTGamer/bdthemes
  * @website https://discord.me/nn1080
@@ -13,5 +13,5 @@
 @import url(https://ytgamer.github.io/bdthemes/nifn/DiscordAmoled_quickConfig.css);
 
 :root {
-	--version003: none;
+	--version004_dao : none;
 }

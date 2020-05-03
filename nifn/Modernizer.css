@@ -1,3 +1,5 @@
+.authBox-hW6HRx,																	/* login */
+.input-cIJ7To,																		/* textinput */
 .mention,																			/* mentions */
 span.mention.wrapper-3WhCwL.da-wrapper.mention.interactive,							/* mentions: you */
 .modeSelected-1zApJ_ .content-3at_AU, .modeSelected-1zApJ_:hover .content-3at_AU,	/* channel selected */
@@ -20,6 +22,8 @@ span.mention.wrapper-3WhCwL.da-wrapper.mention.interactive,							/* mentions: y
 .item-26Dhrx,																		/* settings item */
 .rem-2m9HGf.botTag-2WPJ74,															/* bottags messages */
 .px-10SIf7.botTag-2WPJ74,															/* bottags memberlist */
+#app-mount .tooltip-2QfLtc, #app-mount .tooltipBlack-PPG47z,						/* tooltips */
+.toast, .bd-toast,																	/* toasts */
 .card-2j1p1_,																		/* permissions sync */
 .theme-dark .elevationHigh-1PneE4,													/* permissions unsaved */
 .userInfoViewing-16kqK3,															/* settings account */
@@ -29,22 +33,28 @@ span.mention.wrapper-3WhCwL.da-wrapper.mention.interactive,							/* mentions: y
 .button-38aScr,																		/* settings button */
 #app-mount .container-1nZlH6,														/* settings shortcuts */
 .bd-addon-list .bd-card-footer button,												/* settings bd pluginsettingsbutton */
-#bd-settingspane-container .bd-pfbtn												/* settings bd header */
+#bd-settingspane-container .ui-switch-item,											/* settings bd themes/plugins */
+.bd-search-wrapper																	/* settings bd themes/plugins search */
 {
 	border-radius: var(--borderRadius);												/* radius */
 }
 .mentioned-xhSam7,																	/* mentions: role + you */
 .wrapper-3WhCwL.da-wrapper,															/* mentioned mention */
-.themed-OHr7kt.item-PXvHYJ															/* friendlist tabs */
+.themed-OHr7kt.item-PXvHYJ,															/* friendlist tabs */
+#bd-settingspane-container .bd-pfbtn												/* settings bd header */
 {
 	border-radius: var(--borderRadius) !important;									/* radius please */
+}
+.input-cIJ7To																		/* textinput */
+{
+	border-width: 2px;
 }
 .item-3T2z1R:first-child															/* permissions left */
 {
 	border-top-left-radius: var(--borderRadius);
 	border-bottom-left-radius: var(--borderRadius);
 }
-.item-3T2z1R:last-child																/* permissions left */
+.item-3T2z1R:last-child																/* permissions right */
 {
 	border-top-right-radius: var(--borderRadius);
 	border-bottom-right-radius: var(--borderRadius);

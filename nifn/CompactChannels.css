@@ -10,6 +10,11 @@
 	transition-delay: var(--delayIn);
 }
 
+.text-2e2ZyG																		/* new unreads text */
+{
+	text-align: center;
+}
+
 html:only-child > head + body > div#app-mount.appMount-3lHmkl > div.app-1q1i1E > div.app-2rEoOp:before {
 	content: "This version of CompactChannels is outdated. Please redownload the newest version from: https://github.com/YTGamer/bdthemes (or by clicking Source)" !important;
 	display: var(--version002_cc, block) !important;

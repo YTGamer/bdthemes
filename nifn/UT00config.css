@@ -37,6 +37,12 @@
 	font-size: var(--textSize) !important;
 }
 
+/* fix voice counter plugin position */
+.voiceCounter {
+	top: unset !important;
+	bottom: 10px !important;
+}
+
 /* user status and bot tags */
 .activityText-yGKsKm, .activityText-OW8WYb, .botTagRegular-2HEhHi, .botTag-2WPJ74 {
 	font-size: calc(var(--textSize) / 1.3);

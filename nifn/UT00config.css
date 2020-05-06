@@ -32,8 +32,8 @@
 /*	UT92 cfg												end		*/
 
 /*	UT93 cfg												start	*/
-/* names (channels, memberlist, dms and topic) */
-.name-3_Dsmg, .name-uJV0GL, .title-29uC1r, .topic-TCb_qw, .nicknames-1XK4Zt, .akaBadge-1M-1Gw {
+/* names (channels (+ voice counter plugin), memberlist, dms and topic) */
+.name-3_Dsmg, .name-uJV0GL, .title-29uC1r, .topic-TCb_qw, .nicknames-1XK4Zt, .akaBadge-1M-1Gw, .voiceCounter {
 	font-size: var(--textSize) !important;
 }
 

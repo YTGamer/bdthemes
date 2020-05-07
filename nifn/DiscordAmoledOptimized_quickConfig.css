@@ -1,5 +1,5 @@
-#user-settings > div > div.sidebarRegion-VFTUkN.da-sidebarRegion > div > div > nav > div > div.info-1VyQPT.da-info > div:nth-child(5):after {
-	content: " Discord AMOLED Optimized 1.4.1 (141)" !important; /* You can show this in settings and scroll down — If you want to have the latest version of this theme, reload Discord */
+#user-settings > div > div.sidebarRegion-VFTUkN.da-sidebarRegion > div > div > nav > div > div.info-1VyQPT.da-info:after {
+	content: "Discord AMOLED Optimized 1.4.2 (142)" !important; /* You can show this in settings and scroll down — If you want to have the latest version of this theme, reload Discord */
 	font-size: 12px !important;
 	color: var(--text-muted) !important;
 	cursor: pointer !important;
@@ -12,24 +12,24 @@
 	position: relative !important;
 	top: unset !important;
 	left: unset !important;
-	bottom: unset !important;
+	bottom: 4px !important;
 	right: unset !important;
 	transform: unset !important;
 	animation: unset !important;
 }
 
 :root {
-	--transparencycolor:		0,0,0;		/* default: 0,0,0	*/
-	--transparencyalpha:		0;		/* default: 0		*/
-	--messagetransparency:		0;		/* default: 0		*/
-	--guildchanneltransparency:	0;		/* default: 0		*/
-	--memberlistransparency:	0;		/* default: 0		*/
-	--accentcolor:			114,137,218;	/* default: 114,137,218	*/
-	--background:			#000000;	/* default: #000000	*/
-	--popout:			#000000;	/* default: #000000	*/
-	--backdrop:			rgb(0,0,0);	/* default: rgb(0,0,0)	*/
-	--messageboxcolor:		#000000;	/* default: #000000	*/
-	--titlebarcolor:		#000000;	/* default: #000000	*/
+	--transparencycolor: 0,0,0;
+	--transparencyalpha: 0;
+	--messagetransparency: 0;
+	--guildchanneltransparency: 0;
+	--memberlistransparency: 0;
+	--accentcolor: 114,137,218;
+	--background: #000000;
+	--popout: #000000;
+	--backdrop: rgb(0,0,0);
+	--messageboxcolor: #000000;
+	--titlebarcolor: #000000;
 }
 
 html:only-child > head + body > div#app-mount.appMount-3lHmkl > div.app-1q1i1E > div.app-2rEoOp:before {

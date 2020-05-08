@@ -34,14 +34,19 @@ span.mention.wrapper-3WhCwL.da-wrapper.mention.interactive,							/* mentions: y
 #app-mount .container-1nZlH6,														/* settings shortcuts */
 .bd-addon-list .bd-card-footer button,												/* settings bd pluginsettingsbutton */
 #bd-settingspane-container .ui-switch-item,											/* settings bd themes/plugins */
-.bd-search-wrapper																	/* settings bd themes/plugins search */
+.bd-search-wrapper,																	/* settings bd themes/plugins search */
+.activeNavItemPrimary-CRWnj6,														/* discorddevelopers activetab */
+.cardLink-2yxLqu,																	/* discorddevelopers applications */
+.Select-control																		/* discorddevelopers sortby */
 {
 	border-radius: var(--borderRadius);												/* radius */
 }
 .mentioned-xhSam7,																	/* mentions: role + you */
 .wrapper-3WhCwL.da-wrapper,															/* mentioned mention */
 .themed-OHr7kt.item-PXvHYJ,															/* friendlist tabs */
-#bd-settingspane-container .bd-pfbtn												/* settings bd header */
+#bd-settingspane-container .bd-pfbtn,												/* settings bd header */
+.wrapper-3aJbIC,																	/* discorddevelopers newsletter */
+.cardOptionTile-zyQcuf																/* discorddevelopers short/long */
 {
 	border-radius: var(--borderRadius) !important;									/* radius please */
 }

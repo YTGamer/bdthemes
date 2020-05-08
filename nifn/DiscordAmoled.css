@@ -5496,7 +5496,7 @@ body:before {
 	background: transparent;
 	border: 1px solid rgba(var(--vtransparencycolor), 0.3);
 	box-shadow: 0px 1px 5px 0px rgba(var(--vtransparencycolor), 0.3);
-	overflow: hidden;
+	overflow: scroll;
 }
 #app-mount .popout-2sKjHu:after,
 .select-2TCrqx > [class*="css-"][class*="-container"] > [class*="css-"][class*="-menu"]:after {

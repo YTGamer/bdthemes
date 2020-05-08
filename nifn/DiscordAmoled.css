@@ -6631,3 +6631,7 @@ body #ace_settingsmenu input[type="checkbox"]:checked:after {
 .theme-dark .preview-2nSL_2.cardPrimaryOutline-29Ujqw + .marginTop40-i-78cZ .radioGroup-1GBvlr .cardPrimaryEditable-3KtE4g:last-child, .theme-dark .preview-2nSL_2.cardPrimaryOutline-29Ujqw + .marginTop40-i-78cZ .radioGroup-1GBvlr .item-26Dhrx:last-child {
 	display: none;
 }
+
+.wrapper-36iaZw {
+	background-color: var(--titlebarcolor);
+}

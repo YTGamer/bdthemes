@@ -3315,10 +3315,6 @@ body:before {
 .modal-yWgWj-:after {
 	background-color: rgba(var(--vtransparencycolor), calc(var(--vtransparencyalpha) + 0.2));
 }
-.root-1gCeng:before,
-.modal-yWgWj-:before {
-	background-color: var(--vpopout);
-}
 .root-1gCeng .modal-yWgWj-:after,
 .root-1gCeng .modal-yWgWj-:before {
 	display: none;

@@ -33,6 +33,8 @@ span.mention.wrapper-3WhCwL.da-wrapper.mention.interactive,							/* mentions: y
 .colorDefault-2K3EoJ.focused-3afm-j,
 .colorDefault-2K3EoJ:hover:not(.hideInteraction-1iHO1O),                            /* popups 2-2 */
 .item-1tOPte.labelContainer-1BLJti.colorDefault-2K3EoJ,                             /* popups 2-3 */
+.styleFixed-sX-yHV, .styleFlexible-wGDiIL,                                          /* popups 2-4 */
+.contextMenu-HLZMGh,                                                                /* popups 2-5 */
 .item-1tOPte.colorDefault-2K3EoJ.focused-3afm-j,                                    /* status 1-1 */
 .item-1tOPte.colorDefault-2K3EoJ,                                                   /* status 1-2 */
 .card-2j1p1_,																		/* permissions sync */
@@ -49,12 +51,13 @@ span.mention.wrapper-3WhCwL.da-wrapper.mention.interactive,							/* mentions: y
 .activeNavItemPrimary-CRWnj6,														/* discorddevelopers activetab */
 .cardLink-2yxLqu,																	/* discorddevelopers applications */
 .cardImage-1XRTvy,																	/* discorddevelopers applications pfp */
-.Select-control																		/* discorddevelopers sortby */
+.Select-control 																	/* discorddevelopers sortby */
 {
 	border-radius: var(--borderRadius);												/* radius */
 }
 .mentioned-xhSam7,																	/* mentions: role + you */
 .wrapper-3WhCwL.da-wrapper,															/* mentioned mention */
+.wrapper-2aW0bm:before,                                                             /* message buttons */
 .themed-OHr7kt.item-PXvHYJ,															/* friendlist tabs */
 #bd-settingspane-container .bd-pfbtn,												/* settings bd header */
 .wrapper-3aJbIC,																	/* discorddevelopers newsletter */
@@ -183,4 +186,14 @@ html:only-child > head + body > div#app-mount.appMount-3lHmkl > div.app-1q1i1E >
 {
     transition: 250ms;
     transition-delay: 50ms;
+}
+.wrapper-2aW0bm :first-child                                                       /* message buttons firstbutton */
+{
+    border-top-left-radius: var(--borderRadius);
+    border-bottom-left-radius: var(--borderRadius);
+}
+.wrapper-2aW0bm :last-child                                                        /* message buttons lasttbutton */
+{
+    border-top-right-radius: var(--borderRadius);
+    border-bottom-right-radius: var(--borderRadius);
 }

@@ -1,4 +1,4 @@
-/* Tabs, 4, No wrap */
+/* Indent mode: Tabs, Indent size: 4, Line wrap mode: No wrap */
 
 /*	Padding (to fix ITC)									start	*/
 .username-1A8OIy, .username-lm8y6T, .name-uJV0GL, .title-29uC1r, .member-3-YXUe {
@@ -39,8 +39,7 @@
 
 /* fix voice counter plugin position */
 .voiceCounter {
-	top: unset !important;
-	bottom: 10px !important;
+	top: var(--textSize) !important;
 }
 
 /* user status and bot tags */

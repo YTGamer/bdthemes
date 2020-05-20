@@ -4,7 +4,7 @@ Now, download your favorite theme(s). The previews are just below:
 
 ## Discord AMOLED dark theme
 
-I tried to copy the original Discord AMOLED dark theme on mobile to use it on PC. There are 2 version of Discord AMOLED:
+I tried to copy the original Discord AMOLED dark theme on mobile to use it on PC. There are 2 versions of Discord AMOLED:
 - [Normal version](https://github.com/YTGamer/bdthemes/blob/master/download-themes-here/DiscordAmoled.theme.css)
 - [Colors optimized for PC](https://github.com/YTGamer/bdthemes/blob/master/download-themes-here/DiscordAmoledOptimized.theme.css)
 

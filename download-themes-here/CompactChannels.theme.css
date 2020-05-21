@@ -2,7 +2,7 @@
 
  * @name Compact channels
  * @author lonl5445
- * @version ersion (download) 0.0.2
+ * @version ersion (download) 0.0.3
  * @description Compact channels list — Customizable in the theme file
  * @source https://github.com/YTGamer/bdthemes
  * @website https://discord.me/nn1080
@@ -12,15 +12,15 @@
 @import url(https://ytgamer.github.io/bdthemes/nifn/CompactChannels.css);
 
 :root {
-/*	Size																											*/
-	--size			:	3.1em	;	/* Channels list size (in px, em, etc…)							Default: 3.1em	*/
-	--sizeOnHover	:	24em	;	/* Channels list size on hover (in px, em, etc…)				Default: 24em	*/
+/*  Size                                                                                                            */
+    --size          :   190px   ;   /* Channels list size (in px, em, etc…)                         Default: 190px  */
+    --sizeOnHover   :   250px   ;   /* Channels list size on hover (in px, em, etc…)                Default: 250px  */
 
-/*	Transitions																										*/
-	--time			:	250ms	;	/* Transition time (in ms)										Default: 250ms	*/
-	--delayIn		:	50ms	;	/* Transition delay before resizing by --sizeOnHover (in ms)	Default: 50ms	*/
-	--delayOut		:	300ms	;	/* Transition delay before resizing by --size (in ms)			Default: 300ms	*/
+/*  Transitions                                                                                                     */
+    --time          :   300ms   ;   /* Transition time (in ms)                                      Default: 300ms  */
+    --delayIn       :   200ms   ;   /* Transition delay before resizing by --sizeOnHover (in ms)    Default: 200ms  */
+    --delayOut      :   500ms   ;   /* Transition delay before resizing by --size (in ms)           Default: 500ms  */
 
-/*	Update																											*/
-	--version002_cc	:	none	;	/* Please do not change, it's used to hide the update notice	Default: none	*/
+/*  Update                                                                                                          */
+    --version003_cc :   none    ;   /* Do not change pliz                                           Default: none   */
 }

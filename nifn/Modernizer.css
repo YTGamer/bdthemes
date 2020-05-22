@@ -7,6 +7,7 @@ span.mention.wrapper-3WhCwL.da-wrapper.mention.interactive,                     
 .wrapper-1ucjTd:hover .content-3at_AU,                                              /* channel hover */
 .full-motion .scale-3iLZhb.didRender-33z1u8,                                        /* popouts */
 #app-mount .cozyMessage-3V1Y8y,                                                     /* messages cozy */
+.wrapper-2aW0bm,                                                                    /* message buttons */
 .reaction-1hd86g,                                                                   /* message reaction */
 .imageWrapper-2p5ogY,                                                               /* message images */
 .wrapper-35wsBm,                                                                    /* message invites */
@@ -38,6 +39,7 @@ span.mention.wrapper-3WhCwL.da-wrapper.mention.interactive,                     
 .item-1tOPte.labelContainer-1BLJti.colorDefault-2K3EoJ,                             /* popups 2-3 */
 .styleFixed-sX-yHV, .styleFlexible-wGDiIL,                                          /* popups 2-4 */
 .contextMenu-HLZMGh,                                                                /* popups 2-5 */
+.submenu-2-ysNh,                                                                    /* contextmenus submenus */
 .item-1tOPte.colorDefault-2K3EoJ.focused-3afm-j,                                    /* status 1-1 */
 .item-1tOPte.colorDefault-2K3EoJ,                                                   /* status 1-2 */
 .card-2j1p1_,                                                                       /* permissions sync */
@@ -250,5 +252,5 @@ html:only-child > head + body > div#app-mount.appMount-3lHmkl > div.app-1q1i1E >
 }
 
 /*
-Modernizer build 7
+Modernizer build 8
 */

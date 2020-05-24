@@ -14,7 +14,7 @@
 :root {
 /*  Size                                                                                                            */
     --size          :   190px   ;   /* Channels list size (in px, em, etc…)                         Default: 190px  */
-    --sizeOnHover   :   250px   ;   /* Channels list size on hover (in px, em, etc…)                Default: 250px  */
+    --sizeOnHover   :   240px   ;   /* Channels list size on hover (in px, em, etc…)                Default: 240px  */
 
 /*  Transitions                                                                                                     */
     --time          :   300ms   ;   /* Transition time (in ms)                                      Default: 300ms  */

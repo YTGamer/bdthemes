@@ -162,8 +162,8 @@ svg
 .item-1tOPte.colorDefault-2K3EoJ,                                                   /* status 1-2 */
 .status-1AY8sU                                                                      /* status 2-1 */
 {
-    transition: 250ms;
-    transition-delay: 50ms;
+    transition: 0ms;
+    transition-delay: 0ms;
 }
 .wrapper-2aW0bm :first-child                                                        /* message buttons firstbutton */
 {
@@ -252,5 +252,5 @@ html:only-child > head + body > div#app-mount.appMount-3lHmkl > div.app-1q1i1E >
 }
 
 /*
-Modernizer build 8
+Modernizer build 9
 */

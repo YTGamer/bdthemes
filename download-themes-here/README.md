@@ -2,7 +2,7 @@
 
 Now, download your favorite theme(s). The previews are just below:
 
-## Discord AMOLED dark theme
+## Featured: Discord AMOLED dark theme
 
 I tried to copy the original Discord AMOLED dark theme on mobile to use it on PC. There are 2 versions of Discord AMOLED:
 - [Normal version](https://github.com/YTGamer/bdthemes/blob/master/download-themes-here/DiscordAmoled.theme.css)
@@ -15,6 +15,12 @@ I tried to copy the original Discord AMOLED dark theme on mobile to use it on PC
 <img src="https://media.discordapp.net/attachments/644206156415238221/677884325361877002/20200214_152943.png" title="da_mobile_preview" alt="da_mobile_preview">
 
 Notify the support if you have found differences (colors, etc…). Do not report something that is on the mobile or PC version, but that is not on the other version.
+
+## [TextArea Max Height Modifier](https://github.com/YTGamer/bdthemes/blob/master/download-themes-here/TextAreaMaxHeightModifier.theme.css)
+
+This minitheme allows you to modifiy the max height for the textarea. Modify the maxHeight in the theme file. Enjoy typing long messages without scrolling in a small textarea!
+
+<img src="https://cdn.discordapp.com/attachments/702611641530843186/714474335498403870/unknown.png" title="tamhm_preview" alt="tamhm_preview">
 
 ## [Remove Nitro Tab](https://github.com/YTGamer/bdthemes/blob/master/download-themes-here/RemoveNitroTab.theme.css)
 

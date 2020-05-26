@@ -3865,9 +3865,6 @@ body:before {
 .popout-2iWAc-[style*="translateX(-100%)"] {
 	transform: translateX(-100%) !important;
 }
-.popout-2iWAc-[style*="translateY(-100%)"] > *:only-child {
-	margin-top: -100%;
-}
 .popout-2iWAc-[style*="translateX(-50."] > *,
 .popout-2iWAc-[style*="translateX(-50%)"] > * {
 	margin-left: -50%;
@@ -6631,4 +6628,6 @@ body #ace_settingsmenu input[type="checkbox"]:checked:after {
 	background-color: var(--titlebarcolor);
 }
 
-/* Discord AMOLED Dark theme */
+/*
+Discord AMOLED Dark theme
+*/

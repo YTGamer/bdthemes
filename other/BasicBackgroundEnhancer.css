@@ -1,0 +1,23 @@
+/*
+PASTE THIS IN YOUR BASICBACKGROUND FILE
+
+@import url(https://ytgamer.github.io/bdthemes/other/BasicBackgroundEnhancer.css);
+
+PASTE THIS IN YOUR BASICBACKGROUND FILE
+*/
+
+#app-mount .cozyMessage-3V1Y8y,
+.content-1o0f9g,
+.scrollableContainer-2NUZem
+{
+	border-color: rgba(var(--accentcolor),var(--messagetransparency)) !important;
+	background: rgba(var(--accentcolor),calc(var(--messagetransparency)/1.5)) !important;
+}
+
+.message-2qnXI6.da-message.mentioned-xhSam7.da-mentioned {
+	background: #00000000 !important;
+}
+
+/*
+Note that this is unofficial, I know that BasicBackground is NOT my theme, I created this just to enhance this theme and to add compatibility with Modernizer.
+*/

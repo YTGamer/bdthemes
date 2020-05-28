@@ -18,6 +18,7 @@ span.mention.wrapper-3WhCwL.da-wrapper.mention.interactive,                     
 .markup-2BOw-j code.inline,                                                         /* codelines */
 .markup-2BOw-j code, .markup-2BOw-j pre,                                            /* codeblocks */
 #app-mount .embedFull-2tM8--,                                                       /* embeds */
+.wrapper-39oAo3,                                                                    /* followtogetupdatesbox */
 .layout-2DM8Md,                                                                     /* home/dm tabs */
 .searchBarComponent-32dTOx .searchBar-6Kv8R2,                                       /* search indms */
 .searchBar-3dMhjb,                                                                  /* search inserver */
@@ -246,5 +247,5 @@ html:only-child > head + body > div#app-mount.appMount-3lHmkl > div.app-1q1i1E >
 }
 
 /*
-Modernizer build 10
+Modernizer build 11
 */

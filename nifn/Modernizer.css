@@ -9,7 +9,6 @@ span.mention.wrapper-3WhCwL.da-wrapper.mention.interactive,                     
 #app-mount .cozyMessage-3V1Y8y,                                                     /* messages cozy */
 .wrapper-2aW0bm,                                                                    /* message buttons */
 .reaction-1hd86g,                                                                   /* message reaction */
-.imageWrapper-2p5ogY,                                                               /* message images */
 .wrapper-35wsBm,                                                                    /* message invites */
 #app-mount .spoilerText-3p6IlD.hidden-HHr2R9,                                       /* message spoilers hidden */
 #app-mount .spoilerText-3p6IlD,                                                     /* message spoilers revelated */
@@ -76,6 +75,10 @@ span.mention.wrapper-3WhCwL.da-wrapper.mention.interactive,                     
 {
     border-width: 2px;
 }
+.imageWrapper-2p5ogY                                                                /* message images */
+{
+    border-radius: 0px;
+}
 .item-3T2z1R:first-child                                                            /* permissions left */
 {
     border-top-left-radius: var(--borderRadius);
@@ -110,6 +113,7 @@ span.mention.wrapper-3WhCwL.da-wrapper.mention.interactive,                     
 }
 .message-2qnXI6.da-message.mentioned-xhSam7.da-mentioned {                          /* mentioned */
     background-color: rgba(249, 166, 26, 0.3) !important;
+    border-color: rgba(0, 1, 3, 0.3) !important;
 }
 .message-2qnXI6.da-message.mentioned-xhSam7.da-mentioned:before {                   /* mention bar at left */
     display: none !important;
@@ -123,8 +127,8 @@ span.mention.wrapper-3WhCwL.da-wrapper.mention.interactive,                     
 #app-mount .cozyMessage-3V1Y8y                                                      /* messages cozy */
 {
     border: solid;
-    border-color: rgba(0, 1, 3, 0.3);
-    background-color: #7289da12;
+    border-color: rgba(0, 1, 3, 0);
+    background-color: #7289da00;
 }
 .scrollableContainer-2NUZem                                                         /* messagebox */
 {
@@ -179,7 +183,7 @@ span.mention.wrapper-3WhCwL.da-wrapper.mention.interactive,                     
 }
 
 html:only-child > head + body > div#app-mount.appMount-3lHmkl > div.typeWindows-1za-n7.titleBar-AC4pGV.horizontalReverse-3tRjY7.flex-1O1GKY.directionRowReverse-m8IjIq.justifyStart-2NDFzi.alignStretch-DpGPf3 > div.wordmark-2iDDfm:after {
-    transition: 0;
+    transition: 200ms;
     transition-delay: 7s;
     content: none !important;
     display: none !important;
@@ -247,5 +251,5 @@ html:only-child > head + body > div#app-mount.appMount-3lHmkl > div.app-1q1i1E >
 }
 
 /*
-Modernizer build 11
+Modernizer build 12
 */

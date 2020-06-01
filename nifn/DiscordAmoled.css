@@ -3315,6 +3315,10 @@ body:before {
 .modal-yWgWj-:after {
 	background-color: rgba(var(--vtransparencycolor), calc(var(--vtransparencyalpha) + 0.2));
 }
+.root-1gCeng:before,
+.modal-yWgWj-:before {
+	background-color: var(--vpopout);
+}
 .root-1gCeng .modal-yWgWj-:after,
 .root-1gCeng .modal-yWgWj-:before {
 	display: none;
@@ -5486,10 +5490,10 @@ body:before {
 	color: rgb(var(--fontwhite1));
 }
 #app-mount .popout-2sKjHu {
-	background-color: var(--titlebarcolor);
+	background: transparent;
 	border: 1px solid rgba(var(--vtransparencycolor), 0.3);
 	box-shadow: 0px 1px 5px 0px rgba(var(--vtransparencycolor), 0.3);
-	overflow: scroll;
+	overflow: hidden;
 }
 #app-mount .popout-2sKjHu:after,
 .select-2TCrqx > [class*="css-"][class*="-container"] > [class*="css-"][class*="-menu"]:after {
@@ -6624,8 +6628,16 @@ body #ace_settingsmenu input[type="checkbox"]:checked:after {
 	display: none;
 }
 
-.wrapper-36iaZw {
-	background-color: var(--titlebarcolor);
+#user-settings-cog-Appearance--theme > div.label-22pbtT:nth-child(1) {
+    color: #ff0000;
+}
+
+.container-16j22k {
+    background-color: var(--titlebarcolor);
+}
+
+.contentWrapper-3RaMY1 {
+    background-color: var(--vbackground);
 }
 
 /*

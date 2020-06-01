@@ -56,6 +56,7 @@ span.mention.wrapper-3WhCwL.da-wrapper.mention.interactive,                     
 .activeNavItemPrimary-CRWnj6,                                                       /* discorddevelopers activetab */
 .cardLink-2yxLqu,                                                                   /* discorddevelopers applications */
 .cardImage-1XRTvy,                                                                  /* discorddevelopers applications pfp */
+.cardImagePlaceholder-1fUGhL,                                                       /* discorddevelopers applications pfp placeholder */
 .Select-control                                                                     /* discorddevelopers sortby */
 {
     border-radius: var(--borderRadius);                                             /* radius */
@@ -251,5 +252,5 @@ html:only-child > head + body > div#app-mount.appMount-3lHmkl > div.app-1q1i1E >
 }
 
 /*
-Modernizer build 12
+Modernizer build 13
 */

@@ -1,0 +1,265 @@
+:root {
+    --server-size: 40px;
+    --server-spacing: 10px;
+    --server-container: calc(var(--server-size) + 20px);
+    --serverlist-radius: 0; /* suspended, waiting for an update (maybe) */
+}
+
+#app-mount .base-3dtUhz {
+    top: var(--server-container) !important;
+    position: absolute !important;
+    left: 0 !important;
+}
+#app-mount .sidebar-2K8pFh {
+    border-radius: 0;
+}
+#app-mount .wrapper-1Rf91z.guilds-1SWlCJ {
+    transform-origin: top left;
+    transform: rotate(-90deg);
+    height: 100vw !important;
+    width: var(--server-container);
+    top: var(--server-container);
+    bottom: unset;
+    position: absolute !important;
+    left: 0;
+}
+#app-mount .wrapper-1Rf91z.guilds-1SWlCJ .scrollerWrap-1IAIlv {
+    width: calc(100% + 30px);
+}
+#app-mount .wrapper-1Rf91z.guilds-1SWlCJ .scroller-2TZvBN > div[style]:not(.listItem-2P_4kh) {
+    height: auto !important;
+}
+#app-mount .wrapper-1Rf91z.guilds-1SWlCJ .svg-1X37T1,
+#app-mount .wrapper-1Rf91z.guilds-1SWlCJ .wrapper-25eVIn,
+#app-mount .wrapper-1Rf91z.guilds-1SWlCJ .guildsError-b7zR5H,
+#app-mount .wrapper-1Rf91z.guilds-1SWlCJ .placeholderMask-3K9THS {
+    width: var(--server-size);
+    height: var(--server-size);
+}
+#app-mount .wrapper-1Rf91z.guilds-1SWlCJ [role=group] {
+    height: auto !important;
+}
+#app-mount .wrapper-1Rf91z.guilds-1SWlCJ [class*=pill] {
+    transform: rotate(90deg) translateY(-50%);
+    height: var(--server-size);
+    width: 4px;
+    top: calc(var(--server-size) / -1 + var(--server-size) / 2 - 8px) !important;
+    margin-left: -2px;
+}
+#app-mount .wrapper-1Rf91z.guilds-1SWlCJ [class*=pill] span {
+    height: 100% !important;
+    width: 3px !important;
+    transform: scale(0, 1) !important;
+    transition: 0.2s ease !important;
+    margin-left: 0;
+    border-radius: 0 8px 8px 0;
+}
+#app-mount .wrapper-1Rf91z.guilds-1SWlCJ [class*=pill] span[style*="height: 0"],
+#app-mount .wrapper-1Rf91z.guilds-1SWlCJ [class*=pill] span[style*="height: 1"],
+#app-mount .wrapper-1Rf91z.guilds-1SWlCJ [class*=pill] span[style*="height: 2"],
+#app-mount .wrapper-1Rf91z.guilds-1SWlCJ [class*=pill] span[style*="height: 3"],
+#app-mount .wrapper-1Rf91z.guilds-1SWlCJ [class*=pill] span[style*="height: 4"],
+#app-mount .wrapper-1Rf91z.guilds-1SWlCJ [class*=pill] span[style*="height: 5"],
+#app-mount .wrapper-1Rf91z.guilds-1SWlCJ [class*=pill] span[style*="height: 6"],
+#app-mount .wrapper-1Rf91z.guilds-1SWlCJ [class*=pill] span[style*="height: 7"],
+#app-mount .wrapper-1Rf91z.guilds-1SWlCJ [class*=pill] span[style*="height: 8"] {
+    transform: scale(1, 0.3) !important;
+}
+#app-mount .wrapper-1Rf91z.guilds-1SWlCJ [class*=pill] span[style*="height: 9"],
+#app-mount .wrapper-1Rf91z.guilds-1SWlCJ [class*=pill] span[style*="height: 10"],
+#app-mount .wrapper-1Rf91z.guilds-1SWlCJ [class*=pill] span[style*="height: 11"],
+#app-mount .wrapper-1Rf91z.guilds-1SWlCJ [class*=pill] span[style*="height: 12"],
+#app-mount .wrapper-1Rf91z.guilds-1SWlCJ [class*=pill] span[style*="height: 13"],
+#app-mount .wrapper-1Rf91z.guilds-1SWlCJ [class*=pill] span[style*="height: 14"],
+#app-mount .wrapper-1Rf91z.guilds-1SWlCJ [class*=pill] span[style*="height: 15"],
+#app-mount .wrapper-1Rf91z.guilds-1SWlCJ [class*=pill] span[style*="height: 16"],
+#app-mount .wrapper-1Rf91z.guilds-1SWlCJ [class*=pill] span[style*="height: 17"],
+#app-mount .wrapper-1Rf91z.guilds-1SWlCJ [class*=pill] span[style*="height: 18"],
+#app-mount .wrapper-1Rf91z.guilds-1SWlCJ [class*=pill] span[style*="height: 19"],
+#app-mount .wrapper-1Rf91z.guilds-1SWlCJ [class*=pill] span[style*="height: 20"] {
+    transform: scale(1, 0.7) !important;
+}
+#app-mount .wrapper-1Rf91z.guilds-1SWlCJ [class*=pill] span[style*="height: 21"]
+#app-mount .wrapper-1Rf91z.guilds-1SWlCJ [class*=pill] span[style*="height: 22"],
+#app-mount .wrapper-1Rf91z.guilds-1SWlCJ [class*=pill] span[style*="height: 23"],
+#app-mount .wrapper-1Rf91z.guilds-1SWlCJ [class*=pill] span[style*="height: 24"],
+#app-mount .wrapper-1Rf91z.guilds-1SWlCJ [class*=pill] span[style*="height: 25"],
+#app-mount .wrapper-1Rf91z.guilds-1SWlCJ [class*=pill] span[style*="height: 26"],
+#app-mount .wrapper-1Rf91z.guilds-1SWlCJ [class*=pill] span[style*="height: 27"],
+#app-mount .wrapper-1Rf91z.guilds-1SWlCJ [class*=pill] span[style*="height: 28"],
+#app-mount .wrapper-1Rf91z.guilds-1SWlCJ [class*=pill] span[style*="height: 29"],
+#app-mount .wrapper-1Rf91z.guilds-1SWlCJ [class*=pill] span[style*="height: 30"],
+#app-mount .wrapper-1Rf91z.guilds-1SWlCJ [class*=pill] span[style*="height: 31"],
+#app-mount .wrapper-1Rf91z.guilds-1SWlCJ [class*=pill] span[style*="height: 32"],
+#app-mount .wrapper-1Rf91z.guilds-1SWlCJ [class*=pill] span[style*="height: 33"],
+#app-mount .wrapper-1Rf91z.guilds-1SWlCJ [class*=pill] span[style*="height: 34"],
+#app-mount .wrapper-1Rf91z.guilds-1SWlCJ [class*=pill] span[style*="height: 35"],
+#app-mount .wrapper-1Rf91z.guilds-1SWlCJ [class*=pill] span[style*="height: 36"],
+#app-mount .wrapper-1Rf91z.guilds-1SWlCJ [class*=pill] span[style*="height: 37"],
+#app-mount .wrapper-1Rf91z.guilds-1SWlCJ [class*=pill] span[style*="height: 38"],
+#app-mount .wrapper-1Rf91z.guilds-1SWlCJ [class*=pill] span[style*="height: 39"],
+#app-mount .wrapper-1Rf91z.guilds-1SWlCJ [class*=pill] span[style*="height: 40"] {
+    transform: scale(1, 0.9) !important;
+}
+#app-mount .wrapper-1Rf91z.guilds-1SWlCJ .wrapper-sa6paO {
+    height: var(--server-size) !important;
+}
+#app-mount .wrapper-1Rf91z.guilds-1SWlCJ .listItem-2P_4kh {
+    width: var(--server-size);
+    transform: rotate(90deg);
+    margin: var(--server-spacing) 10px;
+    position: unset;
+}
+#app-mount .wrapper-1Rf91z.guilds-1SWlCJ .guildSeparator-3s64Iy {
+    transform: rotate(90deg);
+    width: var(--server-size);
+}
+#app-mount .wrapper-1Rf91z.guilds-1SWlCJ .wrapper-21YSNc {
+    width: var(--server-container);
+}
+#app-mount .wrapper-1Rf91z.guilds-1SWlCJ .expandedFolderBackground-2sPsd- {
+    width: var(--server-size);
+    left: 50%;
+    border-radius: 13px;
+    transform: translateX(-50%);
+}
+#app-mount .wrapper-1Rf91z.guilds-1SWlCJ .folder-21wGz3 {
+    background: transparent;
+}
+#app-mount .listItemTooltip-CDcY8J {
+    position: absolute;
+    max-width: unset;
+    white-space: nowrap;
+    margin-left: calc(var(--server-size) / -1 - 20px);
+    top: calc(var(--server-size) - 10px);
+}
+#app-mount .listItemTooltip-CDcY8J .tooltipPointer-3ZfirK {
+    transform: rotate(180deg);
+    top: -5px;
+    right: unset;
+    left: 13px;
+    z-index: 1;
+}
+#app-mount .friendsOnline-2JkivW {
+    position: absolute;
+    transform: translate(-50%, 50%);
+    top: calc(-50% + var(--server-spacing));
+    left: calc(-50%);
+    width: calc(var(--server-size) + var(--server-spacing));
+    display: flex;
+    justify-content: center;
+}
+#app-mount .guilds-1SWlCJ.content-Pph8t6 {
+    position: absolute !important;
+    top: calc(var(--server-container) * 2) !important;
+}
+#app-mount .guilds-1SWlCJ.content-Pph8t6:not(.closed-j55_T-) + .base-3dtUhz {
+    top: calc(var(--server-container) * 2) !important;
+}
+#app-mount .guilds-1SWlCJ .frame-oXWS21.listItem-2P_4kh {
+    height: var(--server-size) !important;
+}
+#app-mount .guilds-1SWlCJ .frame-oXWS21.listItem-2P_4kh .wrapper-1BJsBx {
+    height: 100% !important;
+}
+#app-mount .guilds-1SWlCJ .frame-oXWS21.listItem-2P_4kh .button-Jt-tIg {
+    width: 100%;
+    height: 100% !important;
+    border-radius: 50%;
+    padding: 2px;
+    font-size: 10px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+html.platform-osx #app-mount .typeMacOS-3EmCyP {
+    width: 100%;
+}
+html.platform-osx #app-mount .base-3dtUhz {
+    top: calc(var(--server-container) + 30px) !important;
+}
+
+body.foldercontentopened .base-3dtUhz {
+    transition: 0.2s ease !important;
+}
+
+body #app-mount .base-3dtUhz {
+    top: 0 !important;
+    bottom: var(--server-container) !important;
+}
+body #app-mount .wrapper-1Rf91z.guilds-1SWlCJ {
+    top: unset !important;
+    left: 100%;
+    bottom: 0 !important;
+    transform-origin: bottom left;
+    border-top-right-radius: var(--serverlist-radius);
+    border-bottom-right-radius: var(--serverlist-radius);
+}
+body #app-mount .wrapper-1Rf91z.guilds-1SWlCJ.content-Pph8t6 {
+    top: unset !important;
+    bottom: var(--server-container) !important;
+}
+body #app-mount .wrapper-1Rf91z.guilds-1SWlCJ.content-Pph8t6:not(.closed-j55_T-) + .base-3dtUhz {
+    top: 0 !important;
+    bottom: calc(var(--server-container) * 2) !important;
+}
+body #app-mount .wrapper-1Rf91z.guilds-1SWlCJ [class*=pill] {
+    top: calc(var(--server-size) - 12px) !important;
+}
+body #app-mount .wrapper-1Rf91z.guilds-1SWlCJ [class*=pill] span {
+    border-radius: 4px 0 0 4px;
+}
+body #app-mount .listItemTooltip-CDcY8J {
+    position: absolute;
+    white-space: nowrap;
+    top: calc(var(--server-size) / -1 - 30px) !important;
+    margin-left: calc(var(--server-size) / -1 - 20px);
+}
+body #app-mount .listItemTooltip-CDcY8J .tooltipPointer-3ZfirK {
+    transform: rotate(0) !important;
+    top: unset !important;
+    bottom: -10px !important;
+}
+html.platform-osx #app-mount .base-3dtUhz {
+    top: 32px !important;
+}
+.unreadMentionsIndicatorTop-gA6RCh, .unreadMentionsIndicatorBottom-BXS58x {
+    width: calc(var(--server-size) + 21px);
+}
+
+html:only-child > head + body > div#app-mount.appMount-3lHmkl > div.app-1q1i1E > div.app-2rEoOp:before {
+    content: "This version of Serverlist At Bottom is outdated. Please redownload the newest version from: https://github.com/YTGamer/bdthemes (or by clicking Source)" !important;
+    display: var(--version001_slab, block) !important;
+    background-color: #3e82e5 !important;
+    box-shadow: 0 0px 30px 0 #3e82e5 !important;
+    color: #fff !important;
+    flex-grow: 0 !important;
+    flex-shrink: 0 !important;
+    font-size: 16px !important;
+    font-weight: 500 !important;
+    height: 36px !important;
+    line-height: 36px !important;
+    opacity: 1 !important;
+    padding-left: 4px !important;
+    padding-right: 28px !important;
+    position: relative !important;
+    text-align: center !important;
+    visibility: unset !important;
+    white-space: pre !important;
+    top: 0 !important;
+    left: 0 !important;
+    bottom: unset !important;
+    right: unset !important;
+    max-width: unset !important;
+    min-width: unset !important;
+    max-height: unset !important;
+    min-height: unset !important;
+    transform: unset !important;
+    animation: unset !important;
+    z-index: 101 !important;
+    pointer-events: none !important;
+}
+
+/*
+Serverlist At Bottom build 1
+*/

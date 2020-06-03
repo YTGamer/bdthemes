@@ -41,3 +41,15 @@ Please note that is not exactly the same than the official old version, it only 
 **This theme allows you to use your own fonts** (installed in your computer) **in Discord!** Supports global font and codeblocks font. You can also remember your fonts by using remember variables. I recommend you to download the plugin Theme Settings to change easier this theme's variables. [Click here to download! (after clicking this link, use Ctrl + S to save)](https://raw.githubusercontent.com/mwittrien/BetterDiscordAddons/master/Plugins/ThemeSettings/ThemeSettings.plugin.js)
 
 <img src="https://media.discordapp.net/attachments/644206156415238221/686178479678685188/unknown.png" title="settings_preview" alt="settings_preview">
+
+## [Always Display Channel Buttons](https://github.com/YTGamer/bdthemes/blob/master/download-themes-here/AlwaysDisplayChannelButtons.theme.css)
+
+Allows you to view what buttons you have without hovering on a channel.
+
+<img src="https://cdn.discordapp.com/attachments/702611641530843186/717694454991028314/unknown.png" title="adcb_preview" alt="adcb_preview">
+
+## [Serverlist At Bottom](https://github.com/YTGamer/bdthemes/blob/master/download-themes-here/ServerlistAtBottom.theme.css)
+
+Moves the serverlist at the bottom, like [Guilded](https://www.guilded.gg).
+
+<img src="https://cdn.discordapp.com/attachments/702611641530843186/717696262715211786/unknown.png" title="slab_preview" alt="slab_preview">

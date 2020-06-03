@@ -1,0 +1,16 @@
+/**
+
+ * @name Serverlist at bottom
+ * @author lonl5445
+ * @version ersion (download) 0.0.1
+ * @description Moves the serverlist at the bottom, like Guilded.
+ * @source https://github.com/YTGamer/bdthemes
+ * @website https://discord.me/nn1080
+
+*/
+
+@import url(https://ytgamer.github.io/bdthemes/nifn/SlAtBottom.css);
+
+:root {
+    --version001_slab: none; /* Do not change… */
+}

@@ -1,6 +1,6 @@
 .theme-dark ::-webkit-input-placeholder, .theme-dark body,
 .theme-dark button, .theme-dark input, .theme-dark select, .theme-dark textarea,
-.theme-dark *,                                                                      /* darktheme txt shadow */
+.theme-dark *                                                                       /* darktheme txt shadow */
 {
     text-shadow: 2px 2px 4px #050505 !important;
 }

@@ -1,8 +1,22 @@
+.theme-dark ::-webkit-input-placeholder, .theme-dark body,
+.theme-dark button, .theme-dark input, .theme-dark select, .theme-dark textarea,
+.theme-dark *,                                                                      /* darktheme txt shadow */
+{
+    text-shadow: 2px 2px 4px #050505 !important;
+}
+
+.theme-light ::-webkit-input-placeholder, .theme-light body,
+.theme-light button, .theme-light input, .theme-light select, .theme-light textarea,
+.theme-light *                                                                      /* lighttheme txt shadow */
+{
+    text-shadow: 2px 2px 4px #afafaf !important;
+}
+
 .authBox-hW6HRx,                                                                    /* login */
 .bd-toast,                                                                          /* bd toasts */
 .input-cIJ7To,                                                                      /* textinput */
 .mention,                                                                           /* mentions */
-span.mention.wrapper-3WhCwL.da-wrapper.mention.interactive,                         /* mentions: you */
+span.mention.wrapper-3WhCwL.da-wrapper.mention.interactive,                         /* mentions you */
 .modeSelected-1zApJ_ .content-3at_AU, .modeSelected-1zApJ_:hover .content-3at_AU,   /* channel selected */
 .wrapper-1ucjTd:hover .content-3at_AU,                                              /* channel hover */
 .full-motion .scale-3iLZhb.didRender-33z1u8,                                        /* popouts */
@@ -54,9 +68,9 @@ span.mention.wrapper-3WhCwL.da-wrapper.mention.interactive,                     
 #bd-settingspane-container .ui-switch-item,                                         /* settings bd themes/plugins */
 .bd-search-wrapper,                                                                 /* settings bd themes/plugins search */
 .activeNavItemPrimary-CRWnj6,                                                       /* discorddevelopers activetab */
+.cardImagePlaceholder-1fUGhL,                                                       /* discorddevelopers background */
 .cardLink-2yxLqu,                                                                   /* discorddevelopers applications */
 .cardImage-1XRTvy,                                                                  /* discorddevelopers applications pfp */
-.cardImagePlaceholder-1fUGhL,                                                       /* discorddevelopers applications pfp placeholder */
 .Select-control                                                                     /* discorddevelopers sortby */
 {
     border-radius: var(--borderRadius);                                             /* radius */
@@ -141,14 +155,14 @@ span.mention.wrapper-3WhCwL.da-wrapper.mention.interactive,                     
 {
     border-radius: var(--borderRadius);
     background-color: #7892da;
+    width: 4px;
+    min-width: 4px;
+    max-width: 4px;
 }
 #app-mount .embedFull-2tM8--                                                        /* embeds */
 {
     border: solid;
     border-width: 3px;
-}
-::-webkit-input-placeholder, body, button, input, select, textarea, * {             /* txt shadow */
-    text-shadow: 2px 2px 4px black !important;
 }
 
 .item-1tOPte.labelContainer-1BLJti.colorDefault-2K3EoJ.focused-3afm-j,              /* popups 2-1 */
@@ -218,6 +232,11 @@ html:only-child > head + body > div#app-mount.appMount-3lHmkl > div.typeWindows-
     border-bottom-right-radius: var(--borderRadius);
 }
 
+.messageContent-2qWWxC {
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
 html:only-child > head + body > div#app-mount.appMount-3lHmkl > div.app-1q1i1E > div.app-2rEoOp:before {
     content: "This version of Modernizer is outdated. Please redownload the newest version from: https://github.com/YTGamer/bdthemes (or by clicking Source)" !important;
     display: var(--version004-alpha_m, block) !important;
@@ -252,5 +271,5 @@ html:only-child > head + body > div#app-mount.appMount-3lHmkl > div.app-1q1i1E >
 }
 
 /*
-Modernizer build 13
+Modernizer build 14
 */

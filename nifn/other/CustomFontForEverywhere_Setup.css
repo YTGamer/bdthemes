@@ -1,6 +1,6 @@
 /* Custom Font for Everywhere Setup */
 
-p, h1, h2, h3, h4, h5, h6, div, svg, strong, em, span, mark, ul, ol, li, a, figure, figcaption, pre, ::-webkit-input-placeholder, button, input, .input, select, textarea, .textarea {
+p, h1, h2, h3, h4, h5, h6, div, svg, strong, em, span, mark, ul, ol, li, a, figure, figcaption, yt-formatted-string, paper-item-body, pre, ::-webkit-input-placeholder, button, input, .input, select, textarea, .textarea {
     font-family: var(--customFont) !important;
 }
 

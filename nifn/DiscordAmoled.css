@@ -1829,16 +1829,12 @@ body:before {
 .markup-2BOw-j {											/* message				markup								*/
 	color: rgb(var(--fontwhite2));
 }
-.markup-2BOw-j code {										/* messageelement		code								*/
-	background-color: transparent;
-	border-color: transparent;
-}
 .markup-2BOw-j pre {										/* messageelement		pre									*/
 	background-color: rgba(var(--vtransparencycolor), 0.4);
 	border-color: rgba(var(--vtransparencycolor), 0.1);
 }
 .markup-2BOw-j .inline {									/* messageelement		inline								*/
-	background-color: rgba(var(--vtransparencycolor), 0.4);
+	background-color: #2f3136;
 }
 .markup-2BOw-j .hljs {										/* messageelement		hljs								*/
 	color: rgb(var(--fontwhite2));

@@ -6636,6 +6636,10 @@ body #ace_settingsmenu input[type="checkbox"]:checked:after {
     background-color: var(--vbackground);
 }
 
+.wrapper-36iaZw {
+    background-color: var(--vpopout);
+}
+
 /*
 Discord AMOLED Dark theme
 */

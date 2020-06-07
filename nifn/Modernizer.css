@@ -2,14 +2,14 @@
 .theme-dark button, .theme-dark input, .theme-dark select, .theme-dark textarea,
 .theme-dark *                                                                       /* darktheme txt shadow */
 {
-    text-shadow: 2px 2px 4px #050505 !important;
+    text-shadow: 2px 2px 4px #000000fa !important;
 }
 
 .theme-light ::-webkit-input-placeholder, .theme-light body,
 .theme-light button, .theme-light input, .theme-light select, .theme-light textarea,
 .theme-light *                                                                      /* lighttheme txt shadow */
 {
-    text-shadow: 2px 2px 4px #afafaf !important;
+    text-shadow: 2px 2px 4px #00000025 !important;
 }
 
 .authBox-hW6HRx,                                                                    /* login */
@@ -273,5 +273,5 @@ html:only-child > head + body > div#app-mount.appMount-3lHmkl > div.app-1q1i1E >
 }
 
 /*
-Modernizer build 14
+Modernizer build 15
 */

@@ -1829,12 +1829,11 @@ body:before {
 .markup-2BOw-j {											/* message				markup								*/
 	color: rgb(var(--fontwhite2));
 }
-.markup-2BOw-j pre {										/* messageelement		pre									*/
-	background-color: rgba(var(--vtransparencycolor), 0.4);
-	border-color: rgba(var(--vtransparencycolor), 0.1);
-}
 .markup-2BOw-j .inline {									/* messageelement		inline								*/
 	background-color: #2f3136;
+}
+.markup-2BOw-j code {                                       /* messageelement       code                                */
+    border-width: 1px !important;
 }
 .markup-2BOw-j .hljs {										/* messageelement		hljs								*/
 	color: rgb(var(--fontwhite2));
@@ -6552,10 +6551,16 @@ body #ace_settingsmenu input[type="checkbox"]:checked:after {
 	transition-delay: 0ms !important;
 }
 
-.messageContent-2qWWxC:hover, .username-1A8OIy:hover {
-	color: white !important;
+.messageContent-2qWWxC:hover {
+	color: rgb(210,210,210) !important;
 	transition: 200ms !important;
 	transition-delay: 300ms !important;
+}
+
+.username-1A8OIy:hover {
+    color: white !important;
+    transition: 200ms !important;
+    transition-delay: 300ms !important;
 }
 
 #pubslayer .ui-tab-bar-item.selected, #app-mount #bd-settings-sidebar .ui-tab-bar-item.selected {

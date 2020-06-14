@@ -1,5 +1,5 @@
 #user-settings > div > div.sidebarRegion-VFTUkN.da-sidebarRegion > div > div > nav > div > div.info-1VyQPT.da-info:after {
-	content: "Discord AMOLED Optimized build 152" !important; /* You can show this in settings and scroll down — If you want to have the latest version of this theme, reload Discord */
+	content: "Discord AMOLED Optimized build 153" !important; /* You can show this in settings and scroll down — If you want to have the latest version of this theme, reload Discord */
 	font-size: 12px !important;
 	color: var(--text-muted) !important;
 	cursor: pointer !important;
@@ -19,48 +19,49 @@
 }
 
 :root {
-	--transparencycolor: 0,0,0;
-	--transparencyalpha: 0;
-	--messagetransparency: 0;
-	--guildchanneltransparency: 0;
-	--memberlistransparency: 0;
-	--accentcolor: 114,137,218;
-	--background: #000000;
-	--popout: #000000;
-	--backdrop: rgb(0,0,0);
-	--messageboxcolor: #000000;
-	--titlebarcolor: #000000;
+    --background-dark-primary: black !important;
+    --background-dark-secondary: black !important;
+    --background-dark-tertiary: black !important;
+    --background-primary: var(--background-dark-primary) !important;
+    --background-secondary: var(--background-dark-secondary) !important;
+    --background-tertiary: var(--background-dark-tertiary) !important;
+    --background-mobile-header: #2f3136 !important;
+    --background-modifier-hover: rgba(50,50,50,0.16) !important;
+    --background-modifier-active: rgba(50,50,50,0.24) !important;
+    --background-modifier-selected: rgba(50,50,50,0.32) !important;
+    --background-modifier-accent: hsla(0,0%,100%,0.06) !important;
+    --accentcolor: 66,71,77;
 }
 
 html:only-child > head + body > div#app-mount.appMount-3lHmkl > div.app-1q1i1E > div.app-2rEoOp:before {
-	content: "This version of Discord AMOLED Optimized is outdated. Please redownload the newest version from: https://github.com/YTGamer/bdthemes (or by clicking Source)" !important;
-	display: var(--version004_dao, block) !important;
-	background-color: #3e82e5 !important;
-	box-shadow: 0 0px 30px 0 #3e82e5 !important;
-	color: #fff !important;
-	flex-grow: 0 !important;
-	flex-shrink: 0 !important;
-	font-size: 16px !important;
-	font-weight: 500 !important;
-	height: 36px !important;
-	line-height: 36px !important;
-	opacity: 1 !important;
-	padding-left: 4px !important;
-	padding-right: 28px !important;
-	position: relative !important;
-	text-align: center !important;
-	visibility: unset !important;
-	white-space: pre !important;
-	top: 0 !important;
-	left: 0 !important;
-	bottom: unset !important;
-	right: unset !important;
-	max-width: unset !important;
-	min-width: unset !important;
-	max-height: unset !important;
-	min-height: unset !important;
-	transform: unset !important;
-	animation: unset !important;
-	z-index: 101 !important;
-	pointer-events: none !important;
+    content: "This version of Discord AMOLED Optimized is outdated. Please redownload the newest version from: https://github.com/YTGamer/bdthemes (or by clicking Source)" !important;
+    display: var(--version004_da, block) !important;
+    background-color: #3e82e5 !important;
+    box-shadow: 0 0px 30px 0 #3e82e5 !important;
+    color: #fff !important;
+    flex-grow: 0 !important;
+    flex-shrink: 0 !important;
+    font-size: 16px !important;
+    font-weight: 500 !important;
+    height: 36px !important;
+    line-height: 36px !important;
+    opacity: 1 !important;
+    padding-left: 4px !important;
+    padding-right: 28px !important;
+    position: relative !important;
+    text-align: center !important;
+    visibility: unset !important;
+    white-space: pre !important;
+    top: 0 !important;
+    left: 0 !important;
+    bottom: unset !important;
+    right: unset !important;
+    max-width: unset !important;
+    min-width: unset !important;
+    max-height: unset !important;
+    min-height: unset !important;
+    transform: unset !important;
+    animation: unset !important;
+    z-index: 101 !important;
+    pointer-events: none !important;
 }

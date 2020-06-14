@@ -1298,8 +1298,11 @@ div[class*="message"] img[src*="703638166162112516"] ~ h2[class^="header"] > spa
     background-color: var(--background-secondary);
 }
 
-.childWrapper-anI2G9, .circleIconButton-jET_ig {
+.scroller-2TZvBN {
     background-color: var(--background-dark-4th);
+}
+.childWrapper-anI2G9, .circleIconButton-jET_ig {
+    background-color: var(--background-dark-tertiary);
 }
 
 .privateChannels-1nO12o, .scroller-1JbKMe {
@@ -1353,6 +1356,53 @@ div[class*="message"] img[src*="703638166162112516"] ~ h2[class^="header"] > spa
     transition: 200ms !important;
     transition-delay: 300ms !important;
 }
+
+.typeWindows-1za-n7, .titleBar-AC4pGV {
+    background-color: var(--background-dark-secondary);
+}
+
+.titleBar-AC4pGV {
+    z-index: 1;
+}
+
+.titleBar-AC4pGV:after {
+    content: "";
+    pointer-events: none;
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: var(--background-secondary);
+}
+
+.titleBar-AC4pGV:not(.typeMacOS-3EmCyP):after {
+    height: 22px;
+}
+
+.titleBar-AC4pGV.typeMacOS-3EmCyP:after {
+    height: 32px;
+}
+
+.titleBar-AC4pGV.typeMacOS-3EmCyP,
+.titleBar-AC4pGV.typeMacOS-3EmCyP .macButtons-2MuSAC {
+    width: 72px;
+}
+
+.titleBar-AC4pGV.typeMacOS-3EmCyP.typeMacOSWithFrame-3R_i5S .macButtons-2MuSAC {
+    margin-top: 0;
+    margin-right: 0;
+}
+
+.winButton-iRh8-Z {
+    color: #d2d2d2;
+}
+
+.winButtonClose-1HsbF-:hover,
+.winButtonMinMax-PBQ2gm:hover {
+    color: white;
+}
+
 
 /* Discord Developers */
 .scrollerWrapper-2xG8VZ {

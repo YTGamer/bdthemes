@@ -1403,6 +1403,9 @@ div[class*="message"] img[src*="703638166162112516"] ~ h2[class^="header"] > spa
     color: white;
 }
 
+.scrollerWrap-2lJEkd {
+    background-color: var(--background-dark-primary);
+}
 
 /* Discord Developers */
 .scrollerWrapper-2xG8VZ {

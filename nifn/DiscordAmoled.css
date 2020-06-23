@@ -21,13 +21,13 @@
 }
 
 .theme-dark .scrollerThemed-2oenus .scroller-2FKFPG::-webkit-scrollbar-thumb, .scrollerWrap-2lJEkd .scroller-2FKFPG::-webkit-scrollbar-thumb {
-    background-color: var(--background-dark-4th) !important;
+    background-color: rgb(var(--accentcolor)) !important;
     border-color: transparent !important;
 }
 
 .theme-dark .scrollerThemed-2oenus.themedWithTrack-q8E3vB .scroller-2FKFPG::-webkit-scrollbar-thumb {
-    background-color: var(--background-dark-4th) !important;
-    border-color: var(--background-dark-4th) !important;
+    background-color: rgb(var(--accentcolor)) !important;
+    border-color: rgb(var(--accentcolor)) !important;
 }
 
 .theme-dark .scrollerThemed-2oenus.themedWithTrack-q8E3vB .scroller-2FKFPG::-webkit-scrollbar {
@@ -43,10 +43,10 @@
     background-color: transparent !important;
 }
 
-.theme-dark .scroller-2FKFPG::-webkit-scrollbar {
+/* .theme-dark .scroller-2FKFPG::-webkit-scrollbar {
     width: 12px !important;
     height: 10px !important;
-}
+} */
     
 .theme-dark .videoBackground-3AY_fu, .theme-dark .videoBackgroundTransition-3wpOSl {
     background-color: black;
@@ -1286,7 +1286,7 @@ div[class*="message"] img[src*="703638166162112516"] ~ h2[class^="header"] > spa
     background: linear-gradient(90deg,rgba(54,57,63,0) 0,var(--background-tertiary));
 }
 
-.theme-dark .contextMenu-HLZMGh, .theme-dark  .submenu-2-ysNh {
+.theme-dark .contextMenu-HLZMGh, .theme-dark .submenu-2-ysNh, .theme-dark .styleFlexible-wGDiIL {
     background-color: var(--background-secondary) !important;
 }
 
@@ -1416,6 +1416,7 @@ div[class*="message"] img[src*="703638166162112516"] ~ h2[class^="header"] > spa
     background: transparent;
     border: solid var(--background-dark-4th) 1px;
 }
+
 /* Discord Invite/Login */
 /* .theme-dark .fallbackImage-31Sk4m {
     background: none;

@@ -4,7 +4,7 @@
 
 .theme-light .bd-select .bd-select-options {
     color: var(--text-normal);
-    background-color: var(--background-tertiary);
+    background-color: var(--background-primary);
 }
 .theme-light .bd-search, .theme-light .bd-label, .theme-light .bd-select-value {
     color: var(--text-normal);
@@ -24,7 +24,7 @@
 }
 
 .theme-light .bd-select .bd-select-option:hover, .theme-light .bd-select .bd-select-option.selected {
-    background-color: var(--background-primary);
+    background-color: var(--background-tertiary);
 }
 
 .theme-light .bd-select .bd-select-options {

@@ -53,3 +53,9 @@ Allows you to view what buttons you have without hovering on a channel.
 Moves the serverlist at the bottom, like [Guilded](https://www.guilded.gg).
 
 <img src="https://cdn.discordapp.com/attachments/702611641530843186/717696262715211786/unknown.png" title="slab_preview" alt="slab_preview">
+
+## [BandagedBD Light Theme Fixer](https://github.com/YTGamer/bdthemes/blob/master/download-themes-here/BBDLightThemeFixer.theme.css)
+
+If you are using light theme with BandagedBD `v0.3`, this theme is useful to fix dark-optimized classes. Tip: You can enable it using dark theme, it will haves no effect until you switch to light theme. (do not use this fixer on browser or another client that hasn't BBD installed, it will does absolutely nothing)
+
+<img src="https://cdn.discordapp.com/attachments/702611641530843186/725053623222009976/unknown.png" title="bbdltf_preview" alt="bbdltf_preview">

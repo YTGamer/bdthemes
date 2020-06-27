@@ -24,10 +24,10 @@
     --background-secondary: var(--background-dark-secondary) !important;
     --background-tertiary: var(--background-dark-tertiary) !important;
     --background-mobile-header: #2f3136 !important;
-    --background-modifier-hover: rgba(50,50,50,0.16) !important;
-    --background-modifier-active: rgba(50,50,50,0.24) !important;
-    --background-modifier-selected: rgba(50,50,50,0.32) !important;
-    --background-modifier-accent: hsla(0,0%,100%,0.06) !important;
+    --background-modifier-hover: rgba(var(--greyaccentcolor),0.16) !important;
+    --background-modifier-active: rgba(var(--greyaccentcolor),0.24) !important;
+    --background-modifier-selected: rgba(var(--greyaccentcolor),0.32) !important;
+    --background-modifier-accent: rgba(255,255,255,0.06) !important;
     --greyaccentcolor: 66,71,77;
 }
 :root {

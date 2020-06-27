@@ -1417,6 +1417,17 @@ div[class*="message"] img[src*="703638166162112516"] ~ h2[class^="header"] > spa
     border: solid var(--background-dark-4th) 1px;
 }
 
+.theme-dark .members-1998pB, .members-1998pB>div {
+    background: var(--background-primary)
+}
+
+.theme-dark .modeSelected-1zApJ_ .content-3at_AU, .theme-dark .modeSelected-1zApJ_:hover .content-3at_AU {
+    background: rgb(var(--greyaccentcolor))
+}
+.theme-dark .content-3at_AU:hover {
+    background: var(--background-modifier-hover)
+}
+
 /* Discord Invite/Login */
 /* .theme-dark .fallbackImage-31Sk4m {
     background: none;

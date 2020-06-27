@@ -1428,6 +1428,10 @@ div[class*="message"] img[src*="703638166162112516"] ~ h2[class^="header"] > spa
     background: var(--background-modifier-hover);
 }
 
+.theme-dark .modeSelected-1zApJ_ .icon-1_QxNX, .theme-dark .modeSelected-1zApJ_:hover .icon-1_QxNX, .theme-dark .modeUnread-1zpFdA .icon-1_QxNX, .theme-dark .modeUnread-1zpFdA:hover .icon-1_QxNX {
+    color: var(--interactive-active);
+}
+
 /* Discord Invite/Login */
 /* .theme-dark .fallbackImage-31Sk4m {
     background: none;

@@ -1,5 +1,5 @@
 #user-settings > div > div.sidebarRegion-VFTUkN.da-sidebarRegion > div > div > nav > div > div.info-1VyQPT.da-info:after {
-    content: "Discord AMOLED Optimized build 158" !important; /* You can show this in settings and scroll down — If you want to have the latest version of this theme, use Ctrl+R to reload Discord. */
+    content: "Discord AMOLED Optimized build 159" !important; /* You can show this in settings and scroll down — If you want to have the latest version of this theme, use Ctrl+R to reload Discord. */
     font-size: 12px !important;
     color: rgb(120,120,120) !important;
     display: inline !important;
@@ -28,7 +28,7 @@
     --background-modifier-active: rgba(50,50,50,0.24) !important;
     --background-modifier-selected: rgba(50,50,50,0.32) !important;
     --background-modifier-accent: hsla(0,0%,100%,0.06) !important;
-    --accentcolor: 66,71,77;
+    --greyaccentcolor: 66,71,77;
 }
 :root {
     --bd-blue: #3e82e5 !important;

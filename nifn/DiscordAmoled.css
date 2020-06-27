@@ -1418,14 +1418,14 @@ div[class*="message"] img[src*="703638166162112516"] ~ h2[class^="header"] > spa
 }
 
 .theme-dark .members-1998pB, .members-1998pB>div {
-    background: var(--background-primary)
+    background: var(--background-primary);
 }
 
 .theme-dark .modeSelected-1zApJ_ .content-3at_AU, .theme-dark .modeSelected-1zApJ_:hover .content-3at_AU {
-    background: rgb(var(--greyaccentcolor))
+    background: rgb(var(--greyaccentcolor));
 }
 .theme-dark .content-3at_AU:hover {
-    background: var(--background-modifier-hover)
+    background: var(--background-modifier-hover);
 }
 
 /* Discord Invite/Login */

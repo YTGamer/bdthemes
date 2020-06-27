@@ -9,6 +9,7 @@
  */
 ren_stroke_soft_color_intensity -10;
 ren_background_color 0;
+ren_border_color 16711680;
 ren_solid_background true;
 ren_fps true;
 ren_grid_color 3289650;
@@ -33,3 +34,4 @@ net_replace_color 4 1310720;
 net_replace_color 5 590867;
 net_replace_color 6 4634;
 net_replace_color 13 30506;
+ui_replace_colors 31379 561941 9699328 9737216 2894958 5771630 9308772 6901287;

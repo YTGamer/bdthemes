@@ -21,13 +21,13 @@
 }
 
 .theme-dark .scrollerThemed-2oenus .scroller-2FKFPG::-webkit-scrollbar-thumb, .scrollerWrap-2lJEkd .scroller-2FKFPG::-webkit-scrollbar-thumb {
-    background-color: rgb(var(--accentcolor)) !important;
+    background-color: rgb(var(--greyaccentcolor)) !important;
     border-color: transparent !important;
 }
 
 .theme-dark .scrollerThemed-2oenus.themedWithTrack-q8E3vB .scroller-2FKFPG::-webkit-scrollbar-thumb {
-    background-color: rgb(var(--accentcolor)) !important;
-    border-color: rgb(var(--accentcolor)) !important;
+    background-color: rgb(var(--greyaccentcolor)) !important;
+    border-color: rgb(var(--greyaccentcolor)) !important;
 }
 
 .theme-dark .scrollerThemed-2oenus.themedWithTrack-q8E3vB .scroller-2FKFPG::-webkit-scrollbar {

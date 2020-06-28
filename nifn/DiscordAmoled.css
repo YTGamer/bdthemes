@@ -1417,7 +1417,7 @@ div[class*="message"] img[src*="703638166162112516"] ~ h2[class^="header"] > spa
     border: solid var(--background-dark-4th) 1px;
 }
 
-.theme-dark .members-1998pB, .members-1998pB>div {
+.theme-dark .members-1998pB, .theme-dark .members-1998pB>div {
     background: var(--background-primary);
 }
 

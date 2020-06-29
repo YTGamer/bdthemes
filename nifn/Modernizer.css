@@ -137,9 +137,9 @@ span.mention.wrapper-3WhCwL.da-wrapper.mention.interactive,                     
 .markup-2BOw-j code.inline,                                                         /* codelines */
 .markup-2BOw-j code                                                                 /* codeblocks */
 {
-    border: solid;
-    border-width: 3px;
-    border-color: rgba(0, 1, 3, 0.3);
+/*  border: solid;
+    border-width: 0;
+    border-color: rgba(0, 1, 3, 0.3);  */
 }
 .markup-2BOw-j pre                                                                  /* codeblocks pre */
 {
@@ -241,8 +241,8 @@ html:only-child > head + body > div#app-mount.appMount-3lHmkl > div.typeWindows-
 }
 
 .messageContent-2qWWxC {
-    padding-top: 3px;
-    padding-bottom: 3px;
+    padding-top: 0;
+    padding-bottom: 2px;
 }
 
 html:only-child > head + body > div#app-mount.appMount-3lHmkl > div.app-1q1i1E > div.app-2rEoOp:before {
@@ -279,5 +279,5 @@ html:only-child > head + body > div#app-mount.appMount-3lHmkl > div.app-1q1i1E >
 }
 
 /*
-Modernizer build 17
+Modernizer build 18
 */

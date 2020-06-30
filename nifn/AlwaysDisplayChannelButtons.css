@@ -1,5 +1,11 @@
 .iconItem-1-bXkn, .linkChannels, .closeButton-2GCmT5, .userLimit-64AFxe {
     display: flex !important;
+    opacity: 1 !important;
+    visibility: visible !important;
+}
+
+.privateChannels-1nO12o .channel-2QD9_O .closeButton-2GCmT5 {
+    opacity: 1 !important;
 }
 
 html:only-child > head + body > div#app-mount.appMount-3lHmkl > div.app-1q1i1E > div.app-2rEoOp:before {
@@ -36,5 +42,5 @@ html:only-child > head + body > div#app-mount.appMount-3lHmkl > div.app-1q1i1E >
 }
 
 /*
-Always Display Channel Buttons build 3
+Always Display Channel Buttons build 4
 */

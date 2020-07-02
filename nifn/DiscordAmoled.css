@@ -569,7 +569,7 @@
     border-color: var(--background-tertiary);
 }
 
-.theme-dark .sidebarRegion-VFTUkN, .sidebarRegionScroller-3MXcoP {
+.theme-dark .sidebarRegion-VFTUkN, .theme-dark .sidebarRegionScroller-3MXcoP {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;

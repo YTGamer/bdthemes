@@ -1,6 +1,6 @@
 :root {
-    --server-size: 40px;
-    --server-spacing: 10px;
+    --server-size: var(--serverSize, 48px);
+    --server-spacing: var(--serverSpacing, 10px);
     --server-container: calc(var(--server-size) + 20px);
     --serverlist-radius: 0; /* suspended, waiting for an update (maybe) */
 }
@@ -123,9 +123,6 @@
     border-radius: 13px;
     transform: translateX(-50%);
 }
-#app-mount .wrapper-1Rf91z.guilds-1SWlCJ .folder-21wGz3 {
-    background: transparent;
-}
 #app-mount .listItemTooltip-CDcY8J {
     position: absolute;
     max-width: unset;
@@ -234,7 +231,7 @@ html.platform-osx #app-mount .base-3dtUhz {
 
 html:only-child > head + body > div#app-mount.appMount-3lHmkl > div.app-1q1i1E > div.app-2rEoOp:before {
     content: "This version of Serverlist At Bottom is outdated. Please redownload the newest version from: https://github.com/YTGamer/bdthemes (or by clicking Source)" !important;
-    display: var(--version001_slab, block) !important;
+    display: var(--version002_slab, block) !important;
     background-color: #3e82e5 !important;
     box-shadow: 0 0px 30px 0 #3e82e5 !important;
     color: #fff !important;
@@ -266,5 +263,5 @@ html:only-child > head + body > div#app-mount.appMount-3lHmkl > div.app-1q1i1E >
 }
 
 /*
-Serverlist at bottom build 2
+Serverlist at bottom build 3
 */

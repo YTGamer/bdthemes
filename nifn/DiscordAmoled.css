@@ -1309,8 +1309,25 @@ div[class*="message"] img[src*="703638166162112516"] ~ h2[class^="header"] > spa
     background-color: var(--background-dark-4th) !important;
 }
 
-.theme-dark .expandedFolderBackground-2sPsd- {
+.theme-dark .expandedFolderBackground-2sPsd-,
+.theme-dark .expandedFolderBackground-2sPsd-.hover-2ji_A7,
+.theme-dark .expandedFolderBackground-2sPsd-:hover
+{
     background-color: var(--background-dark-4th);
+}
+
+.theme-dark .expandedFolderBackground-2sPsd-.collapsed-1GMuSb,
+.theme-dark .expandedFolderBackground-2sPsd-.hover-2ji_A7.collapsed-1GMuSb,
+.theme-dark .expandedFolderBackground-2sPsd-:hover.collapsed-1GMuSb {
+    background-color: #0000;
+}
+
+.theme-dark .folder-21wGz3, .theme-dark .folder-21wGz3:hover {
+    background-color: var(--background-dark-4th);
+}
+
+.focusFill-3Y4YuU, .focusStroke-1ApElc {
+    fill: var(--background-dark-secondary);
 }
 
 .theme-dark .inner-3nWsbo {

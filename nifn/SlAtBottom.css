@@ -226,6 +226,11 @@ html.platform-osx #app-mount .base-3dtUhz {
 .unreadMentionsIndicatorTop-gA6RCh, .unreadMentionsIndicatorBottom-BXS58x {
     width: calc(var(--server-size) + 21px);
 }
+.content-3at_AU {
+    margin-left: 0 !important;
+    border-top-left-radius: 0 !important;
+    border-bottom-left-radius: 0 !important;
+}
 
 html:only-child > head + body > div#app-mount.appMount-3lHmkl > div.app-1q1i1E > div.app-2rEoOp:before {
     content: "This version of Serverlist At Bottom is outdated. Please redownload the newest version from: https://github.com/YTGamer/bdthemes (or by clicking Source)" !important;
@@ -261,5 +266,5 @@ html:only-child > head + body > div#app-mount.appMount-3lHmkl > div.app-1q1i1E >
 }
 
 /*
-Serverlist At Bottom build 1
+Serverlist at bottom build 2
 */

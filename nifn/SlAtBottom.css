@@ -40,66 +40,11 @@
     height: auto !important;
 }
 #app-mount .wrapper-1Rf91z.guilds-1SWlCJ [class*=pill] {
-    transform: rotate(90deg) translateY(-50%);
-    height: var(--server-size);
-    width: 4px;
-    top: calc(var(--server-size) / -1 + var(--server-size) / 2 - 8px) !important;
-    margin-left: -2px;
+    transform: rotate(-90deg) translateY(calc(var(--server-size) / 2.6));
+    top: calc(var(--server-size) / 2 + 6px);
 }
-#app-mount .wrapper-1Rf91z.guilds-1SWlCJ [class*=pill] span {
-    height: 100% !important;
-    width: 3px !important;
-    transform: scale(0, 1) !important;
-    transition: 0.2s ease !important;
-    margin-left: 0;
-    border-radius: 0 8px 8px 0;
-}
-#app-mount .wrapper-1Rf91z.guilds-1SWlCJ [class*=pill] span[style*="height: 0"],
-#app-mount .wrapper-1Rf91z.guilds-1SWlCJ [class*=pill] span[style*="height: 1"],
-#app-mount .wrapper-1Rf91z.guilds-1SWlCJ [class*=pill] span[style*="height: 2"],
-#app-mount .wrapper-1Rf91z.guilds-1SWlCJ [class*=pill] span[style*="height: 3"],
-#app-mount .wrapper-1Rf91z.guilds-1SWlCJ [class*=pill] span[style*="height: 4"],
-#app-mount .wrapper-1Rf91z.guilds-1SWlCJ [class*=pill] span[style*="height: 5"],
-#app-mount .wrapper-1Rf91z.guilds-1SWlCJ [class*=pill] span[style*="height: 6"],
-#app-mount .wrapper-1Rf91z.guilds-1SWlCJ [class*=pill] span[style*="height: 7"],
-#app-mount .wrapper-1Rf91z.guilds-1SWlCJ [class*=pill] span[style*="height: 8"] {
-    transform: scale(1, 0.3) !important;
-}
-#app-mount .wrapper-1Rf91z.guilds-1SWlCJ [class*=pill] span[style*="height: 9"],
-#app-mount .wrapper-1Rf91z.guilds-1SWlCJ [class*=pill] span[style*="height: 10"],
-#app-mount .wrapper-1Rf91z.guilds-1SWlCJ [class*=pill] span[style*="height: 11"],
-#app-mount .wrapper-1Rf91z.guilds-1SWlCJ [class*=pill] span[style*="height: 12"],
-#app-mount .wrapper-1Rf91z.guilds-1SWlCJ [class*=pill] span[style*="height: 13"],
-#app-mount .wrapper-1Rf91z.guilds-1SWlCJ [class*=pill] span[style*="height: 14"],
-#app-mount .wrapper-1Rf91z.guilds-1SWlCJ [class*=pill] span[style*="height: 15"],
-#app-mount .wrapper-1Rf91z.guilds-1SWlCJ [class*=pill] span[style*="height: 16"],
-#app-mount .wrapper-1Rf91z.guilds-1SWlCJ [class*=pill] span[style*="height: 17"],
-#app-mount .wrapper-1Rf91z.guilds-1SWlCJ [class*=pill] span[style*="height: 18"],
-#app-mount .wrapper-1Rf91z.guilds-1SWlCJ [class*=pill] span[style*="height: 19"],
-#app-mount .wrapper-1Rf91z.guilds-1SWlCJ [class*=pill] span[style*="height: 20"] {
-    transform: scale(1, 0.7) !important;
-}
-#app-mount .wrapper-1Rf91z.guilds-1SWlCJ [class*=pill] span[style*="height: 21"]
-#app-mount .wrapper-1Rf91z.guilds-1SWlCJ [class*=pill] span[style*="height: 22"],
-#app-mount .wrapper-1Rf91z.guilds-1SWlCJ [class*=pill] span[style*="height: 23"],
-#app-mount .wrapper-1Rf91z.guilds-1SWlCJ [class*=pill] span[style*="height: 24"],
-#app-mount .wrapper-1Rf91z.guilds-1SWlCJ [class*=pill] span[style*="height: 25"],
-#app-mount .wrapper-1Rf91z.guilds-1SWlCJ [class*=pill] span[style*="height: 26"],
-#app-mount .wrapper-1Rf91z.guilds-1SWlCJ [class*=pill] span[style*="height: 27"],
-#app-mount .wrapper-1Rf91z.guilds-1SWlCJ [class*=pill] span[style*="height: 28"],
-#app-mount .wrapper-1Rf91z.guilds-1SWlCJ [class*=pill] span[style*="height: 29"],
-#app-mount .wrapper-1Rf91z.guilds-1SWlCJ [class*=pill] span[style*="height: 30"],
-#app-mount .wrapper-1Rf91z.guilds-1SWlCJ [class*=pill] span[style*="height: 31"],
-#app-mount .wrapper-1Rf91z.guilds-1SWlCJ [class*=pill] span[style*="height: 32"],
-#app-mount .wrapper-1Rf91z.guilds-1SWlCJ [class*=pill] span[style*="height: 33"],
-#app-mount .wrapper-1Rf91z.guilds-1SWlCJ [class*=pill] span[style*="height: 34"],
-#app-mount .wrapper-1Rf91z.guilds-1SWlCJ [class*=pill] span[style*="height: 35"],
-#app-mount .wrapper-1Rf91z.guilds-1SWlCJ [class*=pill] span[style*="height: 36"],
-#app-mount .wrapper-1Rf91z.guilds-1SWlCJ [class*=pill] span[style*="height: 37"],
-#app-mount .wrapper-1Rf91z.guilds-1SWlCJ [class*=pill] span[style*="height: 38"],
-#app-mount .wrapper-1Rf91z.guilds-1SWlCJ [class*=pill] span[style*="height: 39"],
-#app-mount .wrapper-1Rf91z.guilds-1SWlCJ [class*=pill] span[style*="height: 40"] {
-    transform: scale(1, 0.9) !important;
+.item-2hkk8m {
+    max-height: var(--server-size) !important;
 }
 #app-mount .wrapper-1Rf91z.guilds-1SWlCJ .wrapper-sa6paO {
     height: var(--server-size) !important;
@@ -199,12 +144,6 @@ body #app-mount .wrapper-1Rf91z.guilds-1SWlCJ.content-Pph8t6 {
 body #app-mount .wrapper-1Rf91z.guilds-1SWlCJ.content-Pph8t6:not(.closed-j55_T-) + .base-3dtUhz {
     top: 0 !important;
     bottom: calc(var(--server-container) * 2) !important;
-}
-body #app-mount .wrapper-1Rf91z.guilds-1SWlCJ [class*=pill] {
-    top: calc(var(--server-size) - 12px) !important;
-}
-body #app-mount .wrapper-1Rf91z.guilds-1SWlCJ [class*=pill] span {
-    border-radius: 4px 0 0 4px;
 }
 body #app-mount .listItemTooltip-CDcY8J {
     position: absolute;

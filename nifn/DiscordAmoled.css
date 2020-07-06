@@ -761,9 +761,11 @@
 }
 
 .theme-dark .container-3baos1, .theme-dark .container-3baos1 .avatar-SmRMf2 {
-    background-color: var(--background-secondary);
-    -ms-flex-negative: 0;
-    flex-shrink: 0;
+    background-color: var(--background-tertiary);
+}
+
+.theme-dark .sidebar-2K8pFh {
+    background: var(--background-secondary);
 }
 
 .theme-dark .message-2qnXI6.selected-2P5D_Z, .theme-dark .mouse-mode .message-2qnXI6:hover {
@@ -786,10 +788,7 @@
 }
 
 .theme-dark .panels-j1Uci_ {
-    -webkit-box-flex: 0;
-    -ms-flex: 0 0 auto;
-    flex: 0 0 auto;
-    background-color: var(--background-secondary);
+    background-color: var(--background-tertiary);
 }
 
 .theme-dark .section-2gLsgF {
@@ -1224,6 +1223,7 @@ div[class*="message"] img[src*="703638166162112516"] ~ h2[class^="header"] > spa
 
 .theme-dark .scrollableContainer-2NUZem {
     background-color: var(--background-dark-4th);
+    border-color: var(--background-tertiary) !important;
 }
 
 .theme-dark .attachPopout-36hjtN {
@@ -1351,7 +1351,7 @@ div[class*="message"] img[src*="703638166162112516"] ~ h2[class^="header"] > spa
 }
 
 .theme-dark .wrapper-2qzCYF.minimum-28Z35l {
-    background-color: var(--background-tertiary);
+    background-color: var(--background-secondary);
 }
 
 .theme-dark .container-PNkimc {

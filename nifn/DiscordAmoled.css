@@ -1398,6 +1398,10 @@ div[id*="members"] img[src*="703638166162112516"] ~ span[class*="name"]:hover {
     color: white;
 }
 
+.theme-dark .footer-2gL1pp {
+	background-color: var(--background-dark-primary);
+}
+
 /* Discord Developers */
 .theme-dark .scrollerWrapper-2xG8VZ {
     background-color: var(--background-dark-secondary);

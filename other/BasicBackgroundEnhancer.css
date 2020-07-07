@@ -58,6 +58,10 @@ div[class*="message"] img[src*="278543574059057154"] ~ h2[class^="header"] > spa
     color: rgb(var(--bd-blue)) !important;
 }
 
+:root {
+    --bd-blue: var(--accentcolor, 62,130,229) !important;
+}
+
 /*
 Test mode
 Note that this is unofficial, I know that BasicBackground is NOT my theme, I created this just to enhance this theme and to add compatibility with Modernizer.

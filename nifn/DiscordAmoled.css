@@ -1167,7 +1167,7 @@ div[class*="message"] img[src*="703638166162112516"] ~ h2[class^="header"] > spa
     flex-shrink: 0 !important;
     content: "Theme Dev" !important;
     text-transform: uppercase !important;
-    background-color: rgb(var(--bd-blue)) !important;
+    background-color: rgb(var(--betterdiscord-v3-blue-rgb)) !important;
     color: #fff !important;
     pointer-events: none !important;
     user-select: none !important;
@@ -1180,7 +1180,7 @@ div[class*="message"] img[src*="703638166162112516"] ~ h2[class^="header"] > spa
 div[class*="message"] img[src*="453591095536779274"] ~ h2[class^="header"] > span[class*="name"]:hover,
 div[class*="message"] img[src*="703638166162112516"] ~ h2[class^="header"] > span[class*="name"]:hover {
     font-weight: bold !important;
-    color: rgb(var(--bd-blue)) !important;
+    color: rgb(var(--betterdiscord-v3-blue-rgb)) !important;
 }
 
 div[id*="members"] img[src*="453591095536779274"] ~ span[class*="name"],
@@ -1188,7 +1188,7 @@ div[id*="members"] img[src*="703638166162112516"] ~ span[class*="name"],
 div[id*="members"] img[src*="453591095536779274"] ~ span[class*="name"]:hover,
 div[id*="members"] img[src*="703638166162112516"] ~ span[class*="name"]:hover {
     font-weight: bold !important;
-    color: rgb(var(--bd-blue)) !important;
+    color: rgb(var(--betterdiscord-v3-blue-rgb)) !important;
 }
 
 .theme-dark #bd-settings-sidebar .ui-tab-bar-item.selected {
@@ -1399,7 +1399,7 @@ div[id*="members"] img[src*="703638166162112516"] ~ span[class*="name"]:hover {
 }
 
 .theme-dark .footer-2gL1pp {
-	background-color: var(--background-dark-primary);
+    background-color: var(--background-dark-primary);
 }
 
 /* Discord Developers */

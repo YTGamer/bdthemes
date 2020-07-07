@@ -1,5 +1,5 @@
 .info-1VyQPT:after {
-    content: "Discord AMOLED build 265" !important; /* You can show this in settings and scroll down — If you want to have the latest version of this theme, use Ctrl+R to reload Discord. */
+    content: "Discord AMOLED build 266" !important; /* You can show this in settings and scroll down — If you want to have the latest version of this theme, use Ctrl+R to reload Discord. */
     font-size: 12px !important;
     color: var(--text-muted) !important;
     display: inline !important;
@@ -33,7 +33,7 @@
     --greyaccentcolor: 66,71,77;
 }
 :root {
-    --bd-blue: var(--accentcolor, 62,130,229) !important;
+    --betterdiscord-v3-blue-rgb: var(--accentcolor, 62,130,229) !important;
 }
 
 html:only-child > head + body > div#app-mount.appMount-3lHmkl > div.app-1q1i1E > div.app-2rEoOp:before {

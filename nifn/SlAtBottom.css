@@ -83,13 +83,9 @@
     z-index: 1;
 }
 #app-mount .friendsOnline-2JkivW {
-    position: absolute;
-    transform: translate(-50%, 50%);
-    top: calc(-50% + var(--server-spacing));
-    left: calc(-50%);
-    width: calc(var(--server-size) + var(--server-spacing));
-    display: flex;
-    justify-content: center;
+    transform: rotate(-90deg);
+    white-space: pre-line;
+    font-weight: bold;
 }
 #app-mount .guilds-1SWlCJ.content-Pph8t6 {
     position: absolute !important;
@@ -202,5 +198,5 @@ html:only-child > head + body > div#app-mount.appMount-3lHmkl > div.app-1q1i1E >
 }
 
 /*
-Serverlist at bottom build 3
+Serverlist at bottom build 4
 */

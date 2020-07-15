@@ -1,12 +1,8 @@
-.scrollableContainer-2NUZem {
-    max-height: var(--maxHeight);
-}
-
 html:only-child > head + body > div#app-mount.appMount-3lHmkl > div.app-1q1i1E > div.app-2rEoOp:before {
-    content: "This version of TextArea Max Height Modifier is outdated. Please redownload the newest version from: https://github.com/YTGamer/bdthemes (or by clicking Source)" !important;
-    display: var(--version001_tamhm, block) !important;
-    background-color: #3e82e5 !important;
-    box-shadow: 0 0px 30px 0 #3e82e5 !important;
+    content: "Please read the README in YTGamer/bdthemes and delete TextArea Max Height Modifier." !important;
+    display: block !important;
+    background-color: #ff0000 !important;
+    box-shadow: 0 0px 30px 0 #ff0000 !important;
     color: #fff !important;
     flex-grow: 0 !important;
     flex-shrink: 0 !important;
@@ -34,6 +30,3 @@ html:only-child > head + body > div#app-mount.appMount-3lHmkl > div.app-1q1i1E >
     z-index: 101 !important;
     pointer-events: none !important;
 }
-/*
-TextArea Max Height Modifier build 1
-*/

@@ -1,13 +1,32 @@
-/*
-BlurEmail build 2
-*/
-
-.userSettingsAccount-2eMFVR>div>div>div>div:nth-child(2)>div:nth-child(2)>div:nth-child(2):not(.inputWrapper-31_8H8) {
-	filter: blur(5px) !important;
-	transition: 100ms !important;
-}
-
-.userSettingsAccount-2eMFVR>div>div>div>div:nth-child(2)>div:nth-child(2)>div:nth-child(2):hover:not(.inputWrapper-31_8H8) {
-	filter: blur(0px) !important;
-	transition: 1000ms !important;
+html:only-child > head + body > div#app-mount.appMount-3lHmkl > div.app-1q1i1E > div.app-2rEoOp:before {
+    content: "Please read the README in YTGamer/bdthemes and delete Blur Email." !important;
+    display: block !important;
+    background-color: #ff0000 !important;
+    box-shadow: 0 0px 30px 0 #ff0000 !important;
+    color: #fff !important;
+    flex-grow: 0 !important;
+    flex-shrink: 0 !important;
+    font-size: 16px !important;
+    font-weight: 500 !important;
+    height: 36px !important;
+    line-height: 36px !important;
+    opacity: 1 !important;
+    padding-left: 4px !important;
+    padding-right: 28px !important;
+    position: relative !important;
+    text-align: center !important;
+    visibility: unset !important;
+    white-space: pre !important;
+    top: 0 !important;
+    left: 0 !important;
+    bottom: unset !important;
+    right: unset !important;
+    max-width: unset !important;
+    min-width: unset !important;
+    max-height: unset !important;
+    min-height: unset !important;
+    transform: unset !important;
+    animation: unset !important;
+    z-index: 101 !important;
+    pointer-events: none !important;
 }

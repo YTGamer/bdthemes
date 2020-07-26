@@ -1,4 +1,7 @@
-<img src="https://cdn.discordapp.com/attachments/696044749228081285/733059517318824016/20200715_223610.png" alt="Themes Discontinued.png" title="Themes Discontinued.png">
+# Themes are not available here
 
-You can check my other stuff in my [/docs](https://github.com/YTGamer/docs) repository[.](https://github.com/Tomrdh/discord-addons)
+### But you can:
 
+- Check my other stuff in my [/docs](https://github.com/YTGamer/docs) repository
+- Join my server: [No Name 1080](https://discord.me/nn1080)
+- Or check [this new website called Discord Addons](https://tomrdh.github.io/da-website/main) (not mine)!
